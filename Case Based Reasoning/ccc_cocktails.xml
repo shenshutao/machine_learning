@@ -1,0 +1,1548 @@
+<?xml version="1.0"?>
+<recipes>
+  <recipe>
+  <title>Ti'punch</title>
+  <ingredients>
+    <ingredient quantity="6" unit="cl" food="white rum">6 cl white rum</ingredient>
+    <ingredient quantity="2" unit="cl" food="syrup">2 cl cane syrup</ingredient>
+    <ingredient quantity="1" unit="" food="lime">1 slice of lime</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Wash a lime, remove top and bottom, and thinly slice into half rings. Add lime pieces to glass and crush with the flat end of a barspoon.</step>
+    <step>Add rum and cane syrup, top with broken ice, and muddle together. Add a short straw, and serve.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Exotic Cocktail passion fruit</title>
+  <ingredients>
+    <ingredient quantity="1" unit="l" food="Lemonade">1 l Lemonade</ingredient>
+    <ingredient quantity="35" unit="cl" food="Blue curacao">35 cl Blue curacao</ingredient>
+    <ingredient quantity="35" unit="l" food="passion fruit syrup">35 l passion fruit syrup</ingredient>
+    <ingredient quantity="20" unit="cl" food="lemon juice">20 cl lemon juice</ingredient>
+    <ingredient quantity="5" unit="" food="ice cube">5  ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a shaker, combine syrup curacao syrup, passion fruit and lemon juice.</step>
+    <step>Shake well and pour the mixture into a container.</step>
+    <step>Stir liter of lemonade and mix well.</step>
+    <step>Add 5 ice cubes and serve.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Builder</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="cucumbers">1 cucumber</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1 lemon</ingredient>
+    <ingredient quantity="2" unit="" food="sugar">2 cs of sugar</ingredient>
+    <ingredient quantity="3" unit="" food="ice cube">3 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix a cucumber in a centrifuge, put the lemon juice, the sugar and the icebergs.</step>
+    <step>Serve in a glass decorated of a lemon slice}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Raspberry cocktail</title>
+  <ingredients>
+    <ingredient quantity="450" unit="g" food="raspberry">450 g raspberry</ingredient>
+    <ingredient quantity="75" unit="cl" food="cane sugar">75 cl cane sugar</ingredient>
+    <ingredient quantity="50" unit="cl" food="kirsch">50 cl kirsch</ingredient>
+    <ingredient quantity="1" unit="l" food="Lemonade">1 l Lemonade</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1  lemon</ingredient>
+    <ingredient quantity="225" unit="cl" food="Cremant">225 cl Cremant</ingredient>
+  </ingredients>
+  <preparation>
+    <step>The day before: put the raspberries, lemon slices, 3 glasses of cane sugar syrup, kirsch and half lemonade in a large container and marinate in the fridge.</step>
+    <step>Put the rest of lemonade and bottles of sparkling wine in the fridge.</step>
+    <step>Just before serving:</step>
+    <step>Added to the preparation the day before the rest of lemonade and bottles of Cremant. Taste and add sugar cane if necessary because certain sound more bitter than other Cremants.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail for lovers</title>
+  <ingredients>
+    <ingredient quantity="12" unit="cl" food="Orange juice">12 cl Orange juice</ingredient>
+    <ingredient quantity="18" unit="cl" food="cointreau">18 cl cointreau</ingredient>
+    <ingredient quantity="10" unit="cl" food="cognac">10 cl cognac</ingredient>
+    <ingredient quantity="3" unit="cl" food="grenadine">3 cl grenadine</ingredient>
+    <ingredient quantity="10" unit="cl" food="champagne">10 cl champagne</ingredient>
+    <ingredient quantity="10" unit="" food="raspberry">10  raspberry</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix all ingredients (in advance if possible put in the fridge) with a spoon or shaker.</step>
+    <step>Add just before serving raspberries (so they keep their consistency) or one hour before if you require well soaked.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Coconut kiss</title>
+  <ingredients>
+    <ingredient quantity="3" unit="cl" food="pineapple juice">3 cl pineapple juice</ingredient>
+    <ingredient quantity="4" unit="cl" food="orange juice">4 cl orange juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="coconut">2 cl coconut syrup</ingredient>
+    <ingredient quantity="3" unit="cl" food="sour cream">3 cl sour cream</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix juices, syrups and sour cream in a shaker.</step>
+    <step>Serve in a glass with an ananas slice and a piece of orange}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Shot spice</title>
+  <ingredients>
+    <ingredient quantity="3" unit="cl" food="Grenadine">3 cl  Grenadine</ingredient>
+    <ingredient quantity="1" unit="" food="tabasco sauce">tabasco sauce</ingredient>
+    <ingredient quantity="6" unit="cl" food="vodka">6 cl  vodka</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a small glass (about 4 cm in diameter and 5 cm high), add 3 mm grenadine syrup.</step>
+    <step>Add 4-6 drops of tabasco, then slowly pour 2-3 cm vodka (cold, preferably), not to mix the ingredients.</step>
+    <step>This cocktail is drunk "cul-dry." It feels relatively little alcohol initially because the grenadine is in the glass. After a few seconds, you feel the spiciness of Tabasco.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Martini</title>
+  <ingredients>
+    <ingredient quantity="1" unit="l" food="martini">1 l martini</ingredient>
+    <ingredient quantity="2" unit="l" food="citrus fruit">2 l citrus fruit</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1  lemon</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix the liquids. Cut the lemon into chunks and add it. Serve chilled with ice.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Sparkling Strawberry Lime (without alcohol)</title>
+  <ingredients>
+    <ingredient quantity="400" unit="g" food="strawberry">400 g strawberry</ingredient>
+    <ingredient quantity="2" unit="tsp" food="sugar">2 tsp sugar</ingredient>
+    <ingredient quantity="10" unit="cl" food="Lime juice">10 cl Lime juice</ingredient>
+    <ingredient quantity="30" unit="cl" food="Lemonade">30 cl Lemonade</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Wash, remove stems fraises.Les mixer.Ajouter put in the lime juice and lemonade and sucre.Mixer.Verser mixer nouveau.Reserver refrigerate until serving time.</step>
+    <step>Here it is finished!</step>
+    <step>Enjoy it!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Citrus cocktail without alcohol</title>
+  <ingredients>
+    <ingredient quantity="6" unit="cl" food="Orange juice">6 cl Orange juice</ingredient>
+    <ingredient quantity="5" unit="cl" food="lemon juice">5 cl lemon juice</ingredient>
+    <ingredient quantity="2" unit="" food="strawberry">2  strawberry</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Measure each of the ingredients and pour into a shaker. Shake well. Pour into a cocktail glass or champagne flute. Repeat the operation for each person.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Citrouillette (champagne cocktail)</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="Noilly_Prat">4 cl  Noilly Prat</ingredient>
+    <ingredient quantity="8" unit="cl" food="champagne">8 cl  champagne</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour Nouilly Prat in a glass and add Champagne fresh.</step>
+    <step>Taste is excellent.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Grand Paradis</title>
+  <ingredients>
+    <ingredient quantity="1" unit="cl" food="cognac">1 cl cognac</ingredient>
+    <ingredient quantity="5" unit="cl" food="Apricot juice">5 cl Apricot juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="champagne">10 cl champagne</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix in a shaker cognac and apricot juice.</step>
+    <step>Pour into a glass (tulip type) and fill with champagne.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Red Lion</title>
+  <ingredients>
+    <ingredient quantity="2" unit="cl" food="Whiskey">2 cl Whiskey</ingredient>
+    <ingredient quantity="2" unit="cl" food="Creme de cassis">2 cl Creme de cassis</ingredient>
+    <ingredient quantity="0.5" unit="cl" food="Benedictine">0.5 cl Benedictine</ingredient>
+    <ingredient quantity="0.5" unit="cl" food="pastis">0.5 cl pastis</ingredient>
+    <ingredient quantity="1" unit="" food="ice cube">1  ice cube</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Fill a shaker with ice, pour the different alcohols. Close and shake strongly few seconds.</step>
+    <step>Serve.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Bacardi Cocktail</title>
+  <ingredients>
+    <ingredient quantity="24" unit="cl" food="rum">24 cl rum</ingredient>
+    <ingredient quantity="6" unit="cl" food="grenadine">6 cl Grenadine syrup</ingredient>
+    <ingredient quantity="12" unit="cl" food="lemon juice">12 cl lemon juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>1. Put the rum, grenadine syrup and lemon juice in a shaker.Shake.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Balalaika</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="vodka">4 cl vodka</ingredient>
+    <ingredient quantity="2" unit="cl" food="cointreau">2 cl cointreau</ingredient>
+    <ingredient quantity="4" unit="cl" food="lemon juice">4 cl lemon juice</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1 lemon</ingredient>
+    <ingredient quantity="2" unit="" food="ice cube">2 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour alcohol and lemon juice in a tall glass over ice.</step>
+    <step>Garnish with lemon slices.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Raifortissimo</title>
+  <ingredients>
+    <ingredient quantity="5" unit="cl" food="apple juice">5 cl apple juice</ingredient>
+    <ingredient quantity="3" unit="cl" food="lemon juice">3 cl green lemon juice</ingredient>
+    <ingredient quantity="10" unit="g" food="wasabi">10 g wasabi</ingredient>
+    <ingredient quantity="1" unit="" food="kiwi fruit">1 kiwi fruit</ingredient>
+    <ingredient quantity="3" unit="" food="ice cube">3 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix the kiwi fruit, add the juices, wasabi and ice cube.</step>
+    <step>Serve in a glass.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Cranberry-orange</title>
+  <ingredients>
+    <ingredient quantity="25" unit="cl" food="Cranberry juice">25 cl Cranberry juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="Orange juice">10 cl Orange juice</ingredient>
+    <ingredient quantity="150" unit="g" food="raspberry">150 g raspberry</ingredient>
+    <ingredient quantity="2" unit="" food="lemon">2  lemon</ingredient>
+    <ingredient quantity="1" unit="csp" food="lemon juice">1 csp lemon juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix the two juices.</step>
+    <step>Add the raspberries and lemon juice.</step>
+    <step>Mix everything pureed.</step>
+    <step>Serve chilled or with ice cubes.</step>
+    <step>Decorate your glasses with a slice of lemon or orange.</step>
+    <step>To your health!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Pina Colada (cocktail)</title>
+  <ingredients>
+    <ingredient quantity="125" unit="g" food="malibu rum">125 g malibu rum</ingredient>
+    <ingredient quantity="150" unit="g" food="light whipping cream">150 g light whipping cream</ingredient>
+    <ingredient quantity="20" unit="cl" food="Pineapple juice">20 cl Pineapple juice</ingredient>
+    <ingredient quantity="20" unit="cl" food="white rum">20 cl white rum</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put all ingredients except ice cubes in a blender and run at high speed for about 30 seconds.</step>
+    <step>Put ice cubes in glasses and pour over the cream obtained.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Coconut cocktail lovers</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="coconut">1  coconut</ingredient>
+    <ingredient quantity="10" unit="cl" food="white rum">10 cl  white rum</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pierce the coconut in 3 places on the top, and drain the water inside.</step>
+    <step>Completely fill white rum.</step>
+    <step>Plug the holes by cropping a cork, and seal by pouring wax candle dessus.Ranger standing in the refrigerator for 3 weeks.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail appetizer</title>
+  <ingredients>
+    <ingredient quantity="2" unit="l" food="dry white wine">2 l dry white wine</ingredient>
+    <ingredient quantity="200" unit="g" food="sugar">200 g sugar</ingredient>
+    <ingredient quantity="2" unit="" food="lemon">2  lemon</ingredient>
+    <ingredient quantity="2" unit="" food="orange">2 oranges</ingredient>
+    <ingredient quantity="30" unit="cl" food="rum">30 cl rum</ingredient>
+    <ingredient quantity="1" unit="bouteille" food="sparkling water">75 cl sparkling water</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix all ingredients and serve chilled.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Porto Flip</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="Porto">4 cl Porto</ingredient>
+    <ingredient quantity="2" unit="cl" food="cognac">2 cl cognac</ingredient>
+    <ingredient quantity="1" unit="" food="egg">1 egg</ingredient>
+    <ingredient quantity="0" unit="" food="cinnamon">cinnamon</ingredient>
+    <ingredient quantity="0" unit="" food="nutmeg">nutmeg</ingredient>
+    <ingredient quantity="2" unit="" food="cane sugar syrup">2 cl cane sugar syrup</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a shaker, put alcohol and cane syrup. Then add the spices. Mix with a long spoon.</step>
+    <step>Add egg and ice cubes. Close the shaker and mix.</step>
+    <step>Serve in a cocktail glass, saupodrer a little cinnamon.</step>
+    <step>It can do so only with port too.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Shoot up</title>
+  <ingredients>
+    <ingredient quantity="1" unit="cl" food="Mangalore">1 cl mangalore</ingredient>
+    <ingredient quantity="8" unit="cl" food="sparkling water">8 cl sparkling water</ingredient>
+    <ingredient quantity="3" unit="cl" food="apricot">3 cl apricot syrup</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix syrup and mangalore.</step>
+    <step>Then fill the glass by fresh carbonated water.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>The kiss of Smurfette</title>
+  <ingredients>
+    <ingredient quantity="2" unit="cl" food="vodka">2 cl vodka</ingredient>
+    <ingredient quantity="2" unit="cl" food="Blue curacao">2 cl Blue curacao</ingredient>
+    <ingredient quantity="5" unit="cl" food="Lemonade">5 cl Lemonade</ingredient>
+    <ingredient quantity="5" unit="cl" food="Banana juice">5 cl Banana juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour all ingredients in order in a martini glass or cocktail and serve very very cool!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Praslin Islands</title>
+  <ingredients>
+    <ingredient quantity="40" unit="cl" food="Manguo juice">40 cl Manguo juice</ingredient>
+    <ingredient quantity="30" unit="cl" food="Pineapple juice">30 cl Pineapple juice</ingredient>
+    <ingredient quantity="20" unit="l" food="Passion fruit juice">20 l Passion fruit juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="Lime juice">10 cl Lime juice</ingredient>
+    <ingredient quantity="15" unit="g" food="sugar">15 g sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>The whole is mixed in a bottle.</step>
+    <step>Shaken well for about 20 seconds and put in the fridge for it to be chilled before serving.</step>
+    <step>Serve in tall glasses and cocktail with pretty colored straws.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Arranged with apple rum</title>
+  <ingredients>
+    <ingredient quantity="25" unit="cl" food="rum">25 cl rum</ingredient>
+    <ingredient quantity="1" unit="l" food="apple juice">1 l apple juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="cane sugar">10 cl cane sugar</ingredient>
+    <ingredient quantity="0" unit="" food="cinnamon">cinnamon</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a bottle, mix 25 cl dark rum with a liter of apple juice and complete with a shot of sugar cane.</step>
+    <step>Flavored with cinnamon or other according to your tastes, then let stand at least one day for the maceration is complete.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Gin fizz easy</title>
+  <ingredients>
+    <ingredient quantity="6" unit="cl" food="Gin">6 cl Gin</ingredient>
+    <ingredient quantity="3" unit="cl" food="lime">3 cl  lime</ingredient>
+    <ingredient quantity="1" unit="tsp" food="cane sugar">1 tsp cane sugar</ingredient>
+    <ingredient quantity="5" unit="cl" food="sparkling water">5 cl  sparkling water</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put all ingredients in a shaker and shake vigorously until the walls of the shaker to fog.</step>
+    <step>Pour the contents of the shaker into the two glasses with soda water and then lie down.</step>
+    <step>Serve chilled with crushed ice, a straw and a slice of lime.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cider cocktail</title>
+  <ingredients>
+    <ingredient quantity="9" unit="cl" food="Hard cider">9 cl Hard cider</ingredient>
+    <ingredient quantity="2" unit="cl" food="Creme de cassis">2 cl Creme de cassis</ingredient>
+    <ingredient quantity="2" unit="cl" food="cointreau">2 cl cointreau</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix cassis and Cointreau.</step>
+    <step>Keep cool all ingredients.</step>
+    <step>At the last minute add the cider.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Planter's Punch</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="dark rum">4 cl dark rum</ingredient>
+    <ingredient quantity="2" unit="cl" food="lemon juice">2 cl lemon juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="orange juice">10 cl orange juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="syrup">2 cl cane syrup</ingredient>
+    <ingredient quantity="1" unit="cl" food="Grenadine">1 cl grenadine syrup</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the rum, grenadine and lemon juice into a mixing glass filled with ice cubes.</step>
+    <step>Shake well.</step>
+    <step>Strain into a highball glass filled with ice cubes.</step>
+    <step>Add the grenadine.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Coconut cocktail</title>
+  <ingredients>
+    <ingredient quantity="30" unit="cl" food="vodka">30 cl vodka</ingredient>
+    <ingredient quantity="1" unit="l" food="rice milk">1 l rice milk</ingredient>
+    <ingredient quantity="2" unit="l" food="coconut">2 l coconut</ingredient>
+    <ingredient quantity="30" unit="g" food="ice cream">30 g  Vanilla ice cream</ingredient>
+    <ingredient quantity="10" unit="cl" food="cane sugar">10 cl  cane sugar</ingredient>
+    <ingredient quantity="5" unit="" food="ice cube">5 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put everything in a blender and enjoy.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Walnut cocktail coconut coffee</title>
+  <ingredients>
+    <ingredient quantity="2" unit="cl" food="malibu rum">2 cl malibu rum</ingredient>
+    <ingredient quantity="2" unit="cl" food="coconut milk">2 cl coconut milk</ingredient>
+    <ingredient quantity="2" unit="cl" food="Tamarin juice">2 cl Tamarin juice</ingredient>
+    <ingredient quantity="15" unit="cl" food="coffee">15 cl coffee</ingredient>
+    <ingredient quantity="1" unit="cl" food="cane sugar syrup">1 cl cane sugar syrup</ingredient>
+    <ingredient quantity="5" unit="" food="ice cube">5  ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Place ingredients in a shaker. Shake vigorously by firmly with both hands the shaker and plugs.</step>
+    <step>Pour into pretty glasses cocktail.Decorer this preparation hazelnut powder.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Rinse drops (cocktail)</title>
+  <ingredients>
+    <ingredient quantity="1" unit="l" food="apple cider">1 l apple cider</ingredient>
+    <ingredient quantity="25" unit="cl" food="cognac">25 cl cognac</ingredient>
+    <ingredient quantity="25" unit="cl" food="Creme de cassis">25 cl Creme de cassis</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a large bowl, start by putting the creme de cassis, then add the brandy and finally the bottle of cider.</step>
+    <step>Add last ice for the drink fresh.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail MAP</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="White martini">4 cl White martini</ingredient>
+    <ingredient quantity="1" unit="cl" food="Angostura bitter">1 cl Angostura bitter</ingredient>
+    <ingredient quantity="4" unit="xl" food="grapefruit juice">8 cl grapefruit juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put the flutes in the freezer.</step>
+    <step>Squeeze the grapefruit or open the bottle or carton ...</step>
+    <step>Pour one third martini, two thirds grapefruit juice 1 dash Angostura.</step>
+    <step>For the decoration: put a twist on each glass bread with poppy seeds and sugar baked golden but steeped in love and of course ... MAP}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Mojito with Basil</title>
+  <ingredients>
+    <ingredient quantity="5" unit="cl" food="white rum">5 cl white rum</ingredient>
+    <ingredient quantity="10" unit="cl" food="sparkling water">10 cl sparkling water</ingredient>
+    <ingredient quantity="5" unit="cl" food="cane sugar syrup">5 cl cane sugar syrup</ingredient>
+    <ingredient quantity="1" unit="tsp" food="brown sugar">1 tsp brown sugar</ingredient>
+    <ingredient quantity="1" unit="" food="lime">1  lime</ingredient>
+    <ingredient quantity="0" unit="" food="anise basil">anise basil</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Cut a slice of Lime and settle to the bottom of the glass cocktail.Mettre ice in a clean cloth, and mash with a marteau.Couper basil leaves into small pieces and mix with ice pilee.Remplir glass crushed / basil ice cream 2 tiers.Ajouter 5 cl of rum, 5 cl of liquid cane sugar and the juice of the remaining lime, then fill with water gazeuse.Saupoudrer brown sugar.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail orchard</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="apricot liqueur">4 cl apricot liqueur</ingredient>
+    <ingredient quantity="5" unit="cl" food="apple liqueur">5 cl apple liqueur</ingredient>
+    <ingredient quantity="12" unit="cl" food="Pear juice">12 cl Pear juice</ingredient>
+    <ingredient quantity="3" unit="" food="ice cube">3 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a large cocktail glass, install the 3 ice cubes.</step>
+    <step>Pour each ingredient in the order listed above.</step>
+    <step>Mix well and enjoy!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Pomenas</title>
+  <ingredients>
+    <ingredient quantity="20" unit="cl" food="grapefruit juice">20 cl grapefruit juice</ingredient>
+    <ingredient quantity="20" unit="cl" food="Pineapple juice">20 cl Pineapple juice</ingredient>
+    <ingredient quantity="20" unit="cl" food="apple juice">20 cl apple juice</ingredient>
+    <ingredient quantity="4" unit="" food="raspberry">4  raspberry</ingredient>
+    <ingredient quantity="4" unit="" food="ice cube">4 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the juice into a jug, add the raspberries to give color and ice to cool.</step>
+    <step>Serve chilled.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail KidiCana</title>
+  <ingredients>
+    <ingredient quantity="5" unit="cl" food="apple juice">5 cl apple juice</ingredient>
+    <ingredient quantity="1" unit="cl" food="Currant syrup">1 cl Currant syrup</ingredient>
+    <ingredient quantity="1" unit="" food="lemongrass">1  lemongrass</ingredient>
+    <ingredient quantity="1" unit="" food="ginger">1  ginger</ingredient>
+    <ingredient quantity="5" unit="" food="ice cube">5  broken ice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Chop the lemongrass.</step>
+    <step>Place all ingredients in a shaker.</step>
+    <step>Add half of crushed ice.</step>
+    <step>Shake and pour into a glass filled the rest of crushed ice.</step>
+    <step>To your health!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail paradise</title>
+  <ingredients>
+    <ingredient quantity="10" unit="cl" food="Orange juice">10 cl Orange juice</ingredient>
+    <ingredient quantity="4" unit="cl" food="vodka">4 cl vodka</ingredient>
+    <ingredient quantity="2" unit="cl" food="pisang ambon">2 cl pisang ambon</ingredient>
+    <ingredient quantity="2" unit="cl" food="cane sugar syrup">2 cl cane sugar syrup</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Gather the ingredients, except the Pisang ambon in a shaker. Hit.</step>
+    <step>Pour into a cocktail glass, then add Pisang.</step>
+    <step>Serve chilled.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cava Cocktail Vodka Lemon</title>
+  <ingredients>
+    <ingredient quantity="10" unit="cl" food="cava">10 cl cava</ingredient>
+    <ingredient quantity="2" unit="cl" food="vodka">2 cl vodka</ingredient>
+    <ingredient quantity="2" unit="cl" food="lime">2 cl lime</ingredient>
+    <ingredient quantity="1" unit="" food="lime zest">1  lime zest</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix the vodka and lime syrup.</step>
+    <step>Pour Cava in a flute.</step>
+    <step>Gently stir the mixture vodka lime.</step>
+    <step>Garnish with lime zest.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Aperol Spritz: Italian sparkling cocktail</title>
+  <ingredients>
+    <ingredient quantity="8" unit="cl" food="Prosecco">8 cl Prosecco</ingredient>
+    <ingredient quantity="5" unit="cl" food="soda water">5 cl soda water</ingredient>
+    <ingredient quantity="5" unit="" food="ice cube">5  ice cube</ingredient>
+    <ingredient quantity="1" unit="" food="blood orange">1  blood orange</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Prepare the desired amount of cocktail in the proportions!</step>
+    <step>Top with ice and a piece of orange (blood if possible).</step>
+    <step>Health!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Limoncello cocktail</title>
+  <ingredients>
+    <ingredient quantity="2" unit="" food="orange">2 oranges</ingredient>
+    <ingredient quantity="5" unit="cl" food="Amber rum">5 cl Amber rum</ingredient>
+    <ingredient quantity="1" unit="" food="lemon liqueur">1 cl lemon liqueur</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cube</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the dark rum in the glass.</step>
+    <step>Press the 2 oranges and add the juice rum.</step>
+    <step>Add the line of Limoncello, stir and add a few ice cubes.</step>
+    <step>It's ready!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cuban Mojito</title>
+  <ingredients>
+    <ingredient quantity="3" unit="" food="cane sugar">3  cane sugar</ingredient>
+    <ingredient quantity="1" unit="" food="lime">0.5  lime</ingredient>
+    <ingredient quantity="1" unit="" food="mint">1 leaf  mint</ingredient>
+    <ingredient quantity="0" unit="" food="sparkling water">3 cl  sparkling water</ingredient>
+    <ingredient quantity="0" unit="" food="rum">6 cl rum</ingredient>
+    <ingredient quantity="2" unit="" food="ice cube">2 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a medium sized glass (capacity 40 cl), put 3 teaspoons of sugar.</step>
+    <step>Add the juice of 1/2 lime.</step>
+    <step>Cut into 3 or 4 your sprig of mint and put it in the glass (the fact of the cut allows the flavor of the mint better spread).</step>
+    <step>Add a little soda water (about 3 cl) and then with a teaspoon, mix well and crush the mint (insist on branches than on the leaves, otherwise there will be full of little bits of mint rather unpleasant at the time to enjoy your cocktail!).</step>
+    <step>Add about 5 ice cubes.</step>
+    <step>Then pour 6 cl Rum (by paying the mean flow). For the dose rather loaded, count to 5, for the light dose to 4.</step>
+    <step>Finally, fill with soda water.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Delicious tropical cocktail</title>
+  <ingredients>
+    <ingredient quantity="0.25" unit="cl" food="Orange juice">0.25 cl Orange juice</ingredient>
+    <ingredient quantity="0.25" unit="cl" food="grapefruit juice">0.25 cl grapefruit juice</ingredient>
+    <ingredient quantity="0.25" unit="cl" food="Pineapple juice">0.25 l Pineapple juice</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1  lemon</ingredient>
+    <ingredient quantity="20" unit="cl" food="malibu rum">20 cl malibu rum</ingredient>
+    <ingredient quantity="5" unit="cl" food="Grenadine">5 cl  Grenadine</ingredient>
+  </ingredients>
+  <preparation>
+    <step>For 1 glass:</step>
+    <step>$ 5 cl Malibu, then add 1/3 grapefruit, 1/3 orange and 1/3 pineapple, then add a dash of lemon juice 1 dash grenadine for decoration.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail champanise</title>
+  <ingredients>
+    <ingredient quantity="4" unit="l" food="sparkling wine">4 l sparkling wine</ingredient>
+    <ingredient quantity="1" unit="l" food="cointreau">0.5 l cointreau</ingredient>
+    <ingredient quantity="12" unit="" food="lemon">12  lemon</ingredient>
+    <ingredient quantity="200" unit="g" food="cane sugar syrup">30 cl cane sugar syrup</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cube</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a large bowl, pour Cointreau, lemon juice with the pulp and sugar syrup cane.</step>
+    <step>Pour sparkling last.</step>
+    <step>Add ice.</step>
+    <step>Serve in glasses cool (the ideal is to refrigerate before).}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Negroni Cocktail</title>
+  <ingredients>
+    <ingredient quantity="3" unit="cl" food="campari">3 cl  campari</ingredient>
+    <ingredient quantity="3" unit="cl" food="Gin">3 cl  Gin</ingredient>
+    <ingredient quantity="0.5" unit="cl" food="Angostura bitter">0.5 cl  Angostura bitter</ingredient>
+    <ingredient quantity="25" unit="cl" food="soft drink">25 cl  soft drink</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cube</ingredient>
+    <ingredient quantity="1" unit="" food="Orange">1 slice Orange</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Combine ingredients in a highball glass (tumbler) and serve.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail fruit juice for children</title>
+  <ingredients>
+    <ingredient quantity="5" unit="tsp" food="Pineapple juice">5  tsp Pineapple juice</ingredient>
+    <ingredient quantity="3" unit="csp" food="apple juice">3 csp apple juice</ingredient>
+    <ingredient quantity="2" unit="" food="ice cube">2 ice cube</ingredient>
+    <ingredient quantity="1" unit="" food="pineapple">1  pineapple</ingredient>
+    <ingredient quantity="1" unit="" food="apple">1 apple</ingredient>
+    <ingredient quantity="1" unit="tsp" food="powdered sugar">1 tsp powdered sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put the apple juice and pineapple juice in a tall glass and mix.</step>
+    <step>Add sugar and stir again, then add ice.</step>
+    <step>To 5 minutes in the fridge.</step>
+    <step>When serving, put the slices of pineapple and apples on the edge of the glass for decoration.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Creole cream (cocktail)</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="white rum">4 cl  white rum</ingredient>
+    <ingredient quantity="4" unit="cl" food="Vermouth">4 cl Vermouth</ingredient>
+    <ingredient quantity="2" unit="cl" food="lemon juice">2 cl  lemon juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="grenadine">2 cl  grenadine</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the rum, vermouth, lemon juice and grenadine.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Fruit cocktail with lime</title>
+  <ingredients>
+    <ingredient quantity="10" unit="cl" food="coconut milk">10 cl coconut milk</ingredient>
+    <ingredient quantity="20" unit="cl" food="multivitamin juice">20 cl multivitamin juice</ingredient>
+    <ingredient quantity="1" unit="tsp" food="Lime juice">1 tsp Lime juice</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cube</ingredient>
+    <ingredient quantity="1" unit="" food="lime">1  lime</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour 10 cl of coconut milk 20 cl of multivitamin juice in a shaker.</step>
+    <step>Add a teaspoon of lime juice and a few ice cubes.</step>
+    <step>Mix well and serve in a glass cockail; decorate with a slice of lime.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>White russian cocktail</title>
+  <ingredients>
+    <ingredient quantity="30" unit="cl" food="vodka">30 cl vodka</ingredient>
+    <ingredient quantity="20" unit="cl" food="Creme de cafe">20 cl Creme de cafe</ingredient>
+    <ingredient quantity="30" unit="cl" food="whole milk">30 cl whole milk</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put in a blender 20 cl cream coffee, vodka 30 cl and 30 cl of milk.</step>
+    <step>Add ice cubes and blend a few seconds so that the milk foam.</step>
+    <step>Enjoy this chilled cocktail!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Margarita</title>
+  <ingredients>
+    <ingredient quantity="5" unit="cl" food="tequila">5 cl tequila</ingredient>
+    <ingredient quantity="3" unit="cl" food="triple sec">3 cl triple sec</ingredient>
+    <ingredient quantity="2" unit="cl" food="lime juice">2 cl lime juice</ingredient>
+    <ingredient quantity="" unit="" food="salt">salt</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Rum the rim of a cocktail glass with lime juice, and dip in salt.</step>
+    <step>Shake all ingredients with ice, strain into the glass, and serve.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Rainbow</title>
+  <ingredients>
+    <ingredient quantity="10" unit="cl" food="Orange juice">10 cl Orange juice</ingredient>
+    <ingredient quantity="3" unit="cl" food="vodka">3 cl vodka</ingredient>
+    <ingredient quantity="3" unit="cl" food="Grenadine">3 cl Grenadine</ingredient>
+    <ingredient quantity="2" unit="cl" food="Blue curacao">2 cl Blue curacao</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Recipe for 10 glasses. Pour grenadine in a shaker, fill the shaker with ice 2/3, pour the vodka, pour the orange juice. Finish filling the shaker with ice cubes. Carefully pour the curacao, to not mix, pour the mixture into glasses lined all without stopping.</step>
+    <step>Serve in glasses type</step>
+    <step>The color of the contents of each glass will be different by creating a beautiful visual effect gradient type arc-en-ciel a glass to another. Also called Rainbow Shot or Double Rainbow.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Sundays snow</title>
+  <ingredients>
+    <ingredient quantity="10" unit="" food="raspberry">10 raspberry</ingredient>
+    <ingredient quantity="2" unit="" food="currant">2 currant</ingredient>
+    <ingredient quantity="0.5" unit="" food="grapefruit">0.5  grapefruit</ingredient>
+    <ingredient quantity="1" unit="" food="orange">1 orange</ingredient>
+  </ingredients>
+  <preparation>
+    <step>To the bottom of a pretty glass, raspberries and syrup.</step>
+    <step>Add orange juice and grapefruit hurry.</step>
+    <step>Serve chilled and watch the snow through the window, wondering if, indeed, it will come out today.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Ginger cosmo</title>
+  <ingredients>
+    <ingredient quantity="12" unit="g" food="ginger">12 g ginger</ingredient>
+    <ingredient quantity="3" unit="cl" food="vodka">3 cl vodka</ingredient>
+    <ingredient quantity="2" unit="cl" food="triple sec">2 cl triple sec</ingredient>
+    <ingredient quantity="2" unit="cl" food="Lime juice">2 cl Lime juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="Cranberry juice">2 cl Cranberry juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>This recipe is prepared in a shaker and pestle.</step>
+    <step>Peel the ginger and crush coarsely. The pound in the bottom of the shaker to bring out the maximum juice.</step>
+    <step>Add remaining ingredients with ice, close the shaker and shaker for at least 10 seconds.</step>
+    <step>Pour into a cocktail glass martini kind filtering well.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Pink cocktail whiskey</title>
+  <ingredients>
+    <ingredient quantity="400" unit="g" food="raspberry">400 g raspberry</ingredient>
+    <ingredient quantity="6" unit="" food="coriander">6  coriander</ingredient>
+    <ingredient quantity="5" unit="cl" food="Whiskey">5 cl Whiskey</ingredient>
+    <ingredient quantity="15" unit="cl" food="Sour cream">15 cl Sour cream</ingredient>
+    <ingredient quantity="20" unit="g" food="pistachio nut">20 g pistachio nut</ingredient>
+  </ingredients>
+  <preparation>
+    <step>1. Mix the raspberries with cream and 15 ml water glacee.Repartissez the mixture in glasses.</step>
+    <step>2. Add a dash of whiskey and sprinkle with pistachios concassees.Decorez a rod coriander and keep cool until ready to serve.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail grapefruit mint</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="grapefruit">1  grapefruit</ingredient>
+    <ingredient quantity="2" unit="" food="ice cube">2  broken ice cube</ingredient>
+    <ingredient quantity="2" unit="tsp" food="brown sugar">2 tsp brown sugar</ingredient>
+    <ingredient quantity="10" unit="" food="mint">10 mint</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Remove grapefruit juice, pour the juice into the blender, add the remaining ingredients and mix everything!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Fruit cocktail</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="banana">1  banana</ingredient>
+    <ingredient quantity="1" unit="" food="apple">1 apple</ingredient>
+    <ingredient quantity="2" unit="" food="kiwi fruit">2 kiwi fruit</ingredient>
+    <ingredient quantity="30" unit="cl" food="water">30 cl water</ingredient>
+    <ingredient quantity="15" unit="g" food="vanilla sugar">15 g vanilla sugar</ingredient>
+    <ingredient quantity="15" unit="g" food="Brown sugar">15 g Brown sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Peel and cut the fruit into pieces.</step>
+    <step>Put them in the blender (or any other container cocktail) and mix everything, adding water little by little, until the desired consistency (I like it when it's a bit thick) .</step>
+    <step>Then add the vanilla sugar and brown sugar, to taste.</step>
+    <step>Mix one last time for the sugar fits well to the mixture.</step>
+    <step>Chill for an hour and enjoy!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Champagne cocktail mint lime</title>
+  <ingredients>
+    <ingredient quantity="10" unit="cl" food="champagne">10 cl champagne</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cube</ingredient>
+    <ingredient quantity="1" unit="tsp" food="Lime juice">1 tsp Lime juice</ingredient>
+    <ingredient quantity="2" unit="" food="mint">2  mint</ingredient>
+    <ingredient quantity="1" unit="" food="lemon zest">1  lemon zest</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put in a glass of ice at will. Add cut in half and full sheet for decoration. Join lime juice and Champagne overwhelm. Let stand 2 minutes time as flavor goes. Then enjoy!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Bloody mary</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="vodka">4 cl vodka</ingredient>
+    <ingredient quantity="12" unit="cl" food="tomato juice">12 cl tomato juice</ingredient>
+    <ingredient quantity="0" unit="cl" food="lemon juice">0.5 cl lemon juice</ingredient>
+    <ingredient quantity="0" unit="cl" food="worcestershire sauce">0.5 cl worcestershire sauce</ingredient>
+    <ingredient quantity="" unit="" food="tabasco sauce">tabasco</ingredient>
+    <ingredient quantity="" unit="" food="celery salt">celery salt</ingredient>
+    <ingredient quantity="" unit="" food="pepper">pepper</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Combine tomato juice, vodka, lemon juice</step>
+    <step>Season with celery salt, pepper and tabasco if you want}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Tequila sunrise</title>
+  <ingredients>
+    <ingredient quantity="6" unit="cl" food="tequila">6 cl tequila</ingredient>
+    <ingredient quantity="12" unit="cl" food="orange juice">12 cl orange juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="Grenadine">2 cl grenadine syrup</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour tequila in a highball glass with ice, and top with orange juice</step>
+    <step>Stir</step>
+    <step>Add grenadine by tilting glass and pouring grenadine down side by flipping the bottle vertically very quickly}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail drink with raspberries</title>
+  <ingredients>
+    <ingredient quantity="1" unit="l" food="white wine">1 l white wine</ingredient>
+    <ingredient quantity="2" unit="l" food="sparkling wine">2 l sparkling wine</ingredient>
+    <ingredient quantity="250" unit="g" food="raspberry">250 g raspberry</ingredient>
+    <ingredient quantity="4" unit="tsp" food="sugar">4 tsp sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix white wine, sparkling wine and sugar.</step>
+    <step>Add frozen raspberries ...</step>
+    <step>Taste very fresh ...}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail cardinal</title>
+  <ingredients>
+    <ingredient quantity="0" unit="" food="ice cube">broken ice cube</ingredient>
+    <ingredient quantity="3" unit="cl" food="campari">3 cl campari</ingredient>
+    <ingredient quantity="3" unit="cl" food="Noilly Prat">3 cl Noilly Prat</ingredient>
+    <ingredient quantity="3" unit="cl" food="Gin">3 cl Gin</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a shaker, fill with ice moitie.Verser ingredients.</step>
+    <step>Hit.</step>
+    <step>Serve in a cocktail glass and add lemon zest.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail anapomise</title>
+  <ingredients>
+    <ingredient quantity="25" unit="cl" food="Cherry juice">25 cl Cherry juice</ingredient>
+    <ingredient quantity="25" unit="cl" food="apple juice">25 cl apple juice</ingredient>
+    <ingredient quantity="25" unit="cl" food="Pineapple juice">25 cl Pineapple juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="Plum brandy">2 cl Plum brandy</ingredient>
+    <ingredient quantity="2" unit="cl" food="cane sugar">2 cl cane sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix all ingredients and serve chilled.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Daiquiri</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="white rum">4 cl white rum</ingredient>
+    <ingredient quantity="2" unit="cl" food="lime juice">2 cl lime juice</ingredient>
+    <ingredient quantity="1" unit="cl" food="cane sugar syrup">1 cl cane sugar syrup</ingredient>
+    <ingredient quantity="" unit="" food="Ice cube">ice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the rum, lime juice and sugar syrup into a cocktail shaker with ice cubes.</step>
+    <step>Shake well.</step>
+    <step>Strain into a chilled cocktail glass.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Sangria without alcohol</title>
+  <ingredients>
+    <ingredient quantity="8" unit="cl" food="sangria syrup">8 cl sangria syrup</ingredient>
+    <ingredient quantity="100" unit="cl" food="grape juice">100 cl grape juice</ingredient>
+    <ingredient quantity="20" unit="cl" food="orange juice">20 cl orange juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="lemon juice">10 cl lemon juice</ingredient>
+    <ingredient quantity="" unit="" food="fruit">season fruits</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix syrup and juices in a big container.</step>
+    <step>Add cuted season fruits.</step>
+    <step>Put it in the refrigerator for 4 hours before serving}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Tropical Sunshine</title>
+  <ingredients>
+    <ingredient quantity="10" unit="cl" food="Pineapple juice">10 cl Pineapple juice</ingredient>
+    <ingredient quantity="5" unit="cl" food="Orange juice">5 cl Orange juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="Currant syrup">2 cl Currant syrup</ingredient>
+    <ingredient quantity="1" unit="tsp" food="coconut">1 tsp coconut</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the juice chilled fruit and blackcurrant syrup in a large glass.</step>
+    <step>Add a few ice cubes and sprinkle with shredded coconut.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Light cocktail martini</title>
+  <ingredients>
+    <ingredient quantity="1" unit="l" food="red martini">1 l  red martini</ingredient>
+    <ingredient quantity="1" unit="l" food="sparkling mineral water">1 l sparkling mineral water</ingredient>
+    <ingredient quantity="2" unit="" food="lime">2  lime</ingredient>
+    <ingredient quantity="0" unit="" food="mint">mint</ingredient>
+    <ingredient quantity="2" unit="tsp" food="sugar">2 tsp sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the martini into a large pitcher, add sugar and melt.</step>
+    <step>Mix and chill at least 4 hours (overnight is better).</step>
+    <step>When ready to serve, pour the soda bottle.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Screwdriver</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="vodka">4 cl vodka</ingredient>
+    <ingredient quantity="12" unit="cl" food="orange juice">12 cl orange juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a glass, mix ingredients together}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Italian prosecco cocktail</title>
+  <ingredients>
+    <ingredient quantity="75" unit="cl" food="Prosecco">75 cl Prosecco</ingredient>
+    <ingredient quantity="20" unit="" food="litchi">20  litchi</ingredient>
+    <ingredient quantity="30" unit="cl" food="Litchi juice">30 cl Litchi juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="berry juice">10 cl berry juice</ingredient>
+    <ingredient quantity="1" unit="l" food="Lemonade">1 l Lemonade</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix ingredients just before serving.</step>
+    <step>Pour into tall glasses.</step>
+    <step>Possibly prepare a skewer with a cherry and lychee per person.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Virevoltage</title>
+  <ingredients>
+    <ingredient quantity="1" unit="cl" food="malibu rum">1 cl malibu rum</ingredient>
+    <ingredient quantity="1" unit="cl" food="Litchi liqueur">1 cl Litchi liqueur</ingredient>
+    <ingredient quantity="5" unit="cl" food="Pineapple juice">5 cl  Pineapple juice</ingredient>
+    <ingredient quantity="5" unit="cl" food="apple juice">5 cl  apple juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="strawberry">2 cl strawberry syrup</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a cocktail glass filled with ice cubes, put the Malibu and Soho.</step>
+    <step>Fill half glass of pineapple juice and half apple juice, add a drop of strawberry syrup or grenadine.</step>
+    <step>Serve chilled.</step>
+    <step>Cokctail good at all!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Lemon-mint cocktail (without alcohol)</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="mint">4 cl mint</ingredient>
+    <ingredient quantity="1" unit="tsp" food="cane sugar">1  tsp cane sugar</ingredient>
+    <ingredient quantity="2" unit="cl" food="Lime juice">2 cl Lime juice</ingredient>
+    <ingredient quantity="3" unit="cl" food="lemon juice">3 cl lemon juice</ingredient>
+    <ingredient quantity="1" unit="" food="mint">1  mint</ingredient>
+    <ingredient quantity="1" unit="" food="lemon slice">1  lemon slice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Place in a shaker, with ice, mint syrup, sugar syrup, and lemon juice. Shake well.</step>
+    <step>Pour into a glass, garnish with a sprig of mint and a slice of lemon.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Champagne cocktail and sake</title>
+  <ingredients>
+    <ingredient quantity="75" unit="cl" food="champagne">75 cl champagne</ingredient>
+    <ingredient quantity="16" unit="cl" food="Rice wine">16 cl Rice wine</ingredient>
+    <ingredient quantity="4" unit="" food="coriander">4 sprig coriander</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a champagne flute, pour 4 cl sake and fill with Champagne.</step>
+    <step>Add a sprig of cilantro glass.</step>
+    <step>To your health.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Frosty lime</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="lime">1 scoop of lime sorbet</ingredient>
+    <ingredient quantity="2" unit="cl" food="grapefruit juice">2 cl grapefruit juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="mint syrup">2 cl mint syrup</ingredient>
+    <ingredient quantity="" unit="" food="mint">fresh mint</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix the sorbet with the juice and the syrup.</step>
+    <step>Serve in a glass with fresh mint decoration}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Saltwater</title>
+  <ingredients>
+    <ingredient quantity="4.5" unit="bouteille" food="sparkling wine">4.5 l sparkling wine</ingredient>
+    <ingredient quantity="20" unit="cl" food="Blue curacao">20 cl Blue curacao</ingredient>
+    <ingredient quantity="70" unit="cl" food="triple sec">70 cl triple sec</ingredient>
+    <ingredient quantity="35" unit="cl" food="Lemon syrup">35 cl Lemon syrup</ingredient>
+    <ingredient quantity="35" unit="cl" food="Orange syrup">35 cl Orange syrup</ingredient>
+    <ingredient quantity="25" unit="cl" food="cane sugar">25 cl cane sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a large bowl mix the triple sec, curacao, the pulco lemon, orange pulco and sugar cane.</step>
+    <step>Then add bottles of sparkling fresh well.</step>
+    <step>Serve immediately.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Grand Marnier sour (cocktail)</title>
+  <ingredients>
+    <ingredient quantity="3" unit="cl" food="grand marnier">3 cl grand marnier</ingredient>
+    <ingredient quantity="3" unit="cl" food="lemon juice">3 cl lemon juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a shaker put Grand Marnier and lemon juice, and serve hit dan a large cocktail glass}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Amber apple cocktail</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="apple">1  apple</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1  lemon</ingredient>
+    <ingredient quantity="6" unit="" food="ice cube">6  ice cube</ingredient>
+    <ingredient quantity="10" unit="cl" food="apple juice">10 cl apple juice</ingredient>
+    <ingredient quantity="5" unit="cl" food="calvados">5 cl calvados</ingredient>
+    <ingredient quantity="10" unit="cl" food="Creme de cassis">10 cl Creme de cassis</ingredient>
+    <ingredient quantity="7" unit="cl" food="champagne">7 cl champagne</ingredient>
+    <ingredient quantity="0" unit="" food="blackcurrant">blackcurrant</ingredient>
+    <ingredient quantity="0" unit="" food="apple">parts of apple</ingredient>
+    <ingredient quantity="0" unit="" food="pineapple">part of pineapple</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Cut an apple into thin slices and sprinkle with lemon juice. Book.</step>
+    <step>6 Put ice in your shaker, pour 10 cl apple juice 5 cl and 10 cl calvados creme de cassis.</step>
+    <step>Shake for 10 seconds.</step>
+    <step>Divide into 4 cocktail glasses, then fill with champagne.</step>
+    <step>Decorate blackcurrant, apple and pineapple.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Caipirinha</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="cachaca">4 cl cachaca</ingredient>
+    <ingredient quantity="0.5" unit="" food="lime">1/2 lime</ingredient>
+    <ingredient quantity="1" unit="tsp" food="Granulated sugar">1 teaspoon white sugar</ingredient>
+    <ingredient quantity="1" unit="c" food="ice cube">1 cup ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a large rocks glass squeeze and drop in 2 eighths of lime.</step>
+    <step>Add sugar, crush and mix with a spoon.</step>
+    <step>Pour in the cachaca and plenty of ice.</step>
+    <step>Stir well.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Whisky Cocktail Cranberries</title>
+  <ingredients>
+    <ingredient quantity="3" unit="cl" food="Whiskey">3 cl  Whiskey</ingredient>
+    <ingredient quantity="6" unit="cl" food="Cranberry juice">6 cl  Cranberry juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Just mix everything and ... Cheers!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Aquarium</title>
+  <ingredients>
+    <ingredient quantity="3" unit="cl" food="Blue curacao">3 cl Blue curacao</ingredient>
+    <ingredient quantity="3" unit="cl" food="white rum">3 cl white rum</ingredient>
+    <ingredient quantity="3" unit="cl" food="tequila">3 cl tequila</ingredient>
+    <ingredient quantity="3" unit="cl" food="martini">3 cl martini</ingredient>
+    <ingredient quantity="10" unit="g" food="cane sugar">10 g  cane sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mixing in a transparent container, resembling as much as possible in an aquarium, if you do not! Mix.</step>
+    <step>Add ice cubes, and place in the fridge.</step>
+    <step>Decorate your container, incorporating elements of decoration.</step>
+    <step>The aquarium should be surprising indeed! Proportions are adapted according to the number of people.</step>
+    <step>This cocktail normally drink through a straw.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Melon cocktail bubbles</title>
+  <ingredients>
+    <ingredient quantity="2" unit="" food="melon">2  melon</ingredient>
+    <ingredient quantity="1" unit="l" food="Cremant">1 l Cremant</ingredient>
+    <ingredient quantity="10" unit="cl" food="cane sugar">10 cl cane sugar</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1  lemon</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cube</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Remove the seeds of melons and melon mix.</step>
+    <step>Squeeze the lemon.</step>
+    <step>Mix it with sparkling wine, then add ice cubes and sweeten to taste.</step>
+    <step>Serve immediately.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Le vandetta</title>
+  <ingredients>
+    <ingredient quantity="15" unit="cl" food="juice">15 cl ananas juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="orgeat">2 cl orgeat syrup</ingredient>
+    <ingredient quantity="2" unit="cl" food="strawberry">2 cl strawberry syrup</ingredient>
+    <ingredient quantity="5" unit="" food="strawberry">5 strawberry</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Wash and hull the strawberries</step>
+    <step>Mix all the ingredients and serve in a glass quickly}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Pink 3x6 (cocktail)</title>
+  <ingredients>
+    <ingredient quantity="3" unit="" food="lime">3  lime</ingredient>
+    <ingredient quantity="3" unit="" food="lemon">3  lemon</ingredient>
+    <ingredient quantity="50" unit="cl" food="Strawberry juice">50 cl Strawberry juice</ingredient>
+    <ingredient quantity="50" unit="cl" food="grapefruit juice">50 cl grapefruit juice</ingredient>
+    <ingredient quantity="3" unit="" food="fruit syrup">3 cl fruit syrup</ingredient>
+    <ingredient quantity="50" unit="cl" food="Lemonade">50 cl Lemonade</ingredient>
+    <ingredient quantity="0" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Press three limes and three lemons, put the juice in a bowl.</step>
+    <step>Add the juice of raspberry and pink grapefruit.</step>
+    <step>Pour three tablespoons of rose syrup.</step>
+    <step>Mix and keep preparing fresh.</step>
+    <step>Just before serving, pour the lemonade well and add ice cubes.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Mojito</title>
+  <ingredients>
+    <ingredient quantity="6" unit="cl" food="white rum">6 cl white rum</ingredient>
+    <ingredient quantity="8" unit="" food="mint">8 fresh mint leaves</ingredient>
+    <ingredient quantity="0.5" unit="" food="lime">1/2 lime</ingredient>
+    <ingredient quantity="2" unit="tsp" food="sugar">2 tsp sugar</ingredient>
+    <ingredient quantity="10" unit="cl" food="Sparkling water">10 cl sparkling water</ingredient>
+    <ingredient quantity="" unit="" food="ice cube">ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Place mint leaves, the sugar, and the cubed lemon into a glass.</step>
+    <step>Use a muddler to crush the mint and lime to release the mint oils and lime juice.</step>
+    <step>Fill the glass almost to the top with ice.</step>
+    <step>Pour the rum over the ice, and fill the glass with carbonated water.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Pomabricotine</title>
+  <ingredients>
+    <ingredient quantity="45" unit="cl" food="Apricot juice">45 cl Apricot juice</ingredient>
+    <ingredient quantity="45" unit="cl" food="apple juice">45 cl apple juice</ingredient>
+    <ingredient quantity="35" unit="cl" food="sparkling water">35 cl sparkling water</ingredient>
+    <ingredient quantity="3" unit="cl" food="liqueur">3 cl liqueur</ingredient>
+    <ingredient quantity="5" unit="cl" food="grenadine">5 cl Grenadine syrup)</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix all ingredients, chill and add fresh sparkling water at the last moment to keep the bubbly.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>EssaiCCC</title>
+  <ingredients>
+    <ingredient quantity="2" unit="" food="lemon">2 lemon</ingredient>
+    <ingredient quantity="3" unit="" food="pear">3 pear</ingredient>
+    <ingredient quantity="4" unit="" food="vodka">4 vodka</ingredient>
+  </ingredients>
+  <preparation>
+    <step>{{Preparation|text=* Preparation text}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Baywatch (cocktail of the colors of the famous swimwear ... or almost)</title>
+  <ingredients>
+    <ingredient quantity="50" unit="cl" food="malibu rum">50 cl malibu rum</ingredient>
+    <ingredient quantity="50" unit="cl" food="cherry">50 cl cherry</ingredient>
+    <ingredient quantity="1" unit="l" food="guava juice">1 l guava juice</ingredient>
+    <ingredient quantity="10" unit="" food="currant">10 currant</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix all ingredients together in a large pitcher.</step>
+    <step>Place in the fridge at least 3 hours before serving.</step>
+    <step>Clink clink!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Bora bora</title>
+  <ingredients>
+    <ingredient quantity="10" unit="cl" food="pineapple juice">10 cl pineapple juice</ingredient>
+    <ingredient quantity="6" unit="cl" food="passion fruit juice">6 cl passion fruit juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="grenadine">2 cl grenadine syrup</ingredient>
+    <ingredient quantity="1" unit="cl" food="lemon juice">1 cl lemon juice</ingredient>
+    <ingredient quantity="3" unit="" food="ice cube">3 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Make this recipe in a shaker. Serve in a glass over ice with a slice of orange.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail de fruits</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="banana">1 banana</ingredient>
+    <ingredient quantity="1" unit="" food="apple">1 apple</ingredient>
+    <ingredient quantity="2" unit="" food="kiwi fruit">2  kiwi fruit</ingredient>
+    <ingredient quantity="30" unit="cl" food="water">30 cl  water</ingredient>
+    <ingredient quantity="1" unit="tsp" food="vanilla sugar">1 tsp vanilla sugar</ingredient>
+    <ingredient quantity="3" unit="tsp" food="Brown_sugar">3 tsp Brown_sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Peel and cut the fruit into pieces.</step>
+    <step>Put them in the blender (or any other container cocktail) and mix everything, adding water little by little, until the desired consistency (I like it when it's a bit thick) .</step>
+    <step>Then add the vanilla sugar and brown sugar, to taste.</step>
+    <step>Mix one last time for the sugar fits well to the mixture.</step>
+    <step>Chill for an hour and enjoy!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail latte</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="coffee liqueur">4 cl coffee liqueur</ingredient>
+    <ingredient quantity="4" unit="cl" food="Whiskey">4 cl Whiskey</ingredient>
+    <ingredient quantity="30" unit="cl" food="rice milk">30 cl rice milk</ingredient>
+    <ingredient quantity="2" unit="cl" food="cane sugar">2 cl cane sugar</ingredient>
+    <ingredient quantity="4" unit="" food="ice cube">4  ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a shaker, pour all ingredients 2 ice cubes. (Spreading other ice cubes in the glass). Shake the shaker until the ice is melted quasimment.</step>
+    <step>Pour into a large glass or flared to obtain a creamy foam.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail kumquat and lychee</title>
+  <ingredients>
+    <ingredient quantity="5" unit="" food="kumquat">5  kumquat</ingredient>
+    <ingredient quantity="5" unit="" food="litchi">5  litchi</ingredient>
+    <ingredient quantity="1" unit="" food="clementine orange">1  clementine</ingredient>
+    <ingredient quantity="0.5" unit="" food="orange">0.5 orange</ingredient>
+    <ingredient quantity="1" unit="l" food="water">1 l water</ingredient>
+    <ingredient quantity="1" unit="l" food="Lemonade">1 l Lemonade</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix all the fruit in a blender and water until blended.</step>
+    <step>Add a liter of lemonade.</step>
+    <step>Refrigerate 1 hour.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Mexican cocktail in my way</title>
+  <ingredients>
+    <ingredient quantity="40" unit="cl" food="tequila">40 cl tequila</ingredient>
+    <ingredient quantity="1" unit="l" food="guava juice">1 l guava juice</ingredient>
+    <ingredient quantity="1" unit="l" food="Pineapple juice">1 l Pineapple juice</ingredient>
+    <ingredient quantity="30" unit="cl" food="apple juice">30 cl apple juice</ingredient>
+    <ingredient quantity="15" unit="g" food="vanilla sugar">15 g  vanilla sugar</ingredient>
+    <ingredient quantity="3" unit="" food="mint">3 leaf mint</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Combine guava juice and pineapple.</step>
+    <step>Add tequila and apple juice.</step>
+    <step>Mix.</step>
+    <step>Add the vanilla sugar and shake until the sugar is melted.</step>
+    <step>Chop the mint leaves and incorporate cocktail.</step>
+    <step>Reserve in the fridge for 12-24 hours.</step>
+    <step>Attention alcohol tequila fades quickly.</step>
+    <step>We do feel almost at the end of 48 hours, so do not prepare too soon.</step>
+    <step>Filter the mixture and serve chilled.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Fraisalia cocktail (without alcohol)</title>
+  <ingredients>
+    <ingredient quantity="500" unit="g" food="strawberry">500 g strawberry</ingredient>
+    <ingredient quantity="50" unit="cl" food="Orange juice">50 cl Orange juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="strawberry syrup">10 cl strawberry syrup</ingredient>
+    <ingredient quantity="2" unit="l" food="Lemonade">2 l Lemonade</ingredient>
+    <ingredient quantity="10" unit="" food="ice cube">10 ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Place in a bowl chopped strawberries, orange juice and strawberry syrup.</step>
+    <step>Refrigerate at least 2 hours.</step>
+    <step>When ready to serve, add the lemonade and ice cubes.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Sweet pink cocktail</title>
+  <ingredients>
+    <ingredient quantity="150" unit="g" food="raspberry">150 g raspberry</ingredient>
+    <ingredient quantity="1" unit="" food="lemon">1  lemon</ingredient>
+    <ingredient quantity="8" unit="" food="ice cube">8  ice cubes</ingredient>
+    <ingredient quantity="10" unit="cl" food="grape juice">10 cl grape juice</ingredient>
+    <ingredient quantity="15" unit="cl" food="Orange juice">15 cl Orange juice</ingredient>
+    <ingredient quantity="10" unit="cl" food="Schweppes">10 cl  Schweppes</ingredient>
+    <ingredient quantity="0" unit="" food="berry">berry</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour into the bowl of a mixer raspberries and lemon juice. Mix for fine grout.</step>
+    <step>Chill a cocktail shaker with ice 6. Discard the water and then turn 2 ice cubes, raspberry filtered grape juice and orange juice.</step>
+    <step>Add 10 seconds, then pour into 4 tall glasses.</step>
+    <step>Fill with Schweppes.</step>
+    <step>Decorate with berries.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Red cocktail</title>
+  <ingredients>
+    <ingredient quantity="2" unit="cl" food="pear liqueur">2 cl pear liqueur</ingredient>
+    <ingredient quantity="2" unit="cl" food="strawberry syrup">2 cl  strawberry syrup</ingredient>
+    <ingredient quantity="10" unit="cl" food="peach juice">10 cl  peach juice</ingredient>
+    <ingredient quantity="4" unit="cl" food="vodka">4 cl  vodka</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix in a glass the following proportions:</step>
+    <step>40% of lychee liqueur</step>
+    <step>20% of strawberry liqueur</step>
+    <step>40% orange juice.</step>
+    <step>And lively aperitif!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail Sweet Melon</title>
+  <ingredients>
+    <ingredient quantity="1" unit="" food="melon">1  Green melon</ingredient>
+    <ingredient quantity="2" unit="" food="lime">2  lime</ingredient>
+    <ingredient quantity="1" unit="l" food="Orange juice">1 l Orange juice</ingredient>
+    <ingredient quantity="1" unit="l" food="Pineapple juice">1 l Pineapple juice</ingredient>
+    <ingredient quantity="1" unit="l" food="soda water">1 l soda water</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Cut the flesh from the melon.</step>
+    <step>Squeeze the limes.</step>
+    <step>Pour the juice into a bowl.</step>
+    <step>Add the diced melon and let rest in the fridge for 2 hours.</step>
+    <step>Add sparkling water just before serving.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Champagne cocktail</title>
+  <ingredients>
+    <ingredient quantity="1" unit="tsp" food="brown sugar">1  teaspoon brown sugar</ingredient>
+    <ingredient quantity="3" unit="" food="Angostura bitter">3  cl Angostura bitter</ingredient>
+    <ingredient quantity="1" unit="cl" food="cognac">1 cl cognac</ingredient>
+    <ingredient quantity="8" unit="cl" food="champagne">8 cl champagne</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Place ingredients directly into a glass champagne flute type in the following order:</step>
+    <step>Soak the piece of angostura sugar, then put it at the bottom of a champagne flute.</step>
+    <step>Gently pour the cognac (it should cover the piece of sugar).</step>
+    <step>Fill with chilled champagne.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail variant (based rose)</title>
+  <ingredients>
+    <ingredient quantity="5.33" unit="l" food="blush wine">5.33  blush wine</ingredient>
+    <ingredient quantity="0.66" unit="l" food="orange syrup">0.66  Orange Syrup</ingredient>
+    <ingredient quantity="4" unit="l" food="Orange juice">4  l Orange juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>mix well</step>
+    <step>Very cool drink}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Double show</title>
+  <ingredients>
+    <ingredient quantity="6" unit="cl" food="gin">6 cl gin</ingredient>
+    <ingredient quantity="10" unit="cl" food="orange juice">10 cl orange juice</ingredient>
+    <ingredient quantity="2" unit="cl" food="mint syrup">2 cl mint syrup</ingredient>
+    <ingredient quantity="2" unit="cl" food="apple liqueur">2 cl apple liqueur</ingredient>
+  </ingredients>
+  <preparation>
+    <step>{{Preparation|text=}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Hulk (cocktail)</title>
+  <ingredients>
+    <ingredient quantity="7" unit="cl" food="White martini">7 cl White martini</ingredient>
+    <ingredient quantity="5" unit="cl" food="Get_27">5 cl Get_27</ingredient>
+    <ingredient quantity="6" unit="cl" food="grapefruit juice">6 cl grapefruit juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix all the above in a small cup cocktail ingredients.</step>
+    <step>Add an ice cube or two and ... enjoy!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cocktail mexicanos</title>
+  <ingredients>
+    <ingredient quantity="12" unit="cl" food="beer">12 cl beer</ingredient>
+    <ingredient quantity="12" unit="cl" food="Pineapple juice">12 cl Pineapple juice</ingredient>
+    <ingredient quantity="3" unit="cl" food="strawberry syrup">3 cl strawberry syrup</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a beer glass, add a dash of strawberry syrup.</step>
+    <step>Complete with beer, tipping the glass to avoid excessive foaming, and then pour the pineapple juice.</step>
+    <step>Drink very fresh.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Black velvet</title>
+  <ingredients>
+    <ingredient quantity="12" unit="cl" food="stout">12 cl stout</ingredient>
+    <ingredient quantity="12" unit="cl" food="champagne">12 cl champagne</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour the stout and champain together in a class, being careful to ensure there is no overspill.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Champagne soup (cocktail)</title>
+  <ingredients>
+    <ingredient quantity="8" unit="cl" food="cointreau">8 cl cointreau</ingredient>
+    <ingredient quantity="16" unit="cl" food="cane sugar">16 cl cane sugar</ingredient>
+    <ingredient quantity="2" unit="" food="lime">2  lime</ingredient>
+    <ingredient quantity="1" unit="" food="ice cube">1 ice cube</ingredient>
+    <ingredient quantity="75" unit="cl" food="champagne">75 cl champagne</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour into a container Cointreau, cane sugar and lemon juice.</step>
+    <step>Soak overnight.</step>
+    <step>Add the Champagne before serving with ice.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Cuba libre</title>
+  <ingredients>
+    <ingredient quantity="6" unit="cl" food="white rum">6 cl white rum</ingredient>
+    <ingredient quantity="0.5" unit="" food="lime">1/2 lime</ingredient>
+    <ingredient quantity="15" unit="cl" food="coca-cola">15 cl coca-cola</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Squeeze the juice of half a lime into a collins glass.</step>
+    <step>Add ice cubes.</step>
+    <step>Add cola.</step>
+    <step>Stir well.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Tutti cocktail</title>
+  <ingredients>
+    <ingredient quantity="2" unit="cl" food="strawberry syrup">2 cl strawberry syrup</ingredient>
+    <ingredient quantity="2" unit="cl" food="peach syrup">2 cl peach syrup</ingredient>
+    <ingredient quantity="4" unit="cl" food="vodka">4 cl vodka</ingredient>
+    <ingredient quantity="4" unit="cl" food="apple">4 cl apple</ingredient>
+    <ingredient quantity="5" unit="" food="ice cube">5  ice cubes</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix in a shaker and add ice.</step>
+    <step>For a small effect, to the strawberry syrup after mixing.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Pina colada</title>
+  <ingredients>
+    <ingredient quantity="4" unit="cl" food="white rum">4 cl white rum</ingredient>
+    <ingredient quantity="2" unit="cl" food="amber rum">2 cl amber rum</ingredient>
+    <ingredient quantity="12" unit="cl" food="pineapple juice">12 cl pineapple juice</ingredient>
+    <ingredient quantity="4" unit="cl" food="coconut milk">4 cl coconut milk</ingredient>
+    <ingredient quantity="1" unit="c" food="crushed ice">1 cup crushed ice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Pour rum, cream of coconut and pineapple juice into a blender with one cup of crushed ice</step>
+    <step>Blend until smooth}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Strawberry Margarita</title>
+  <ingredients>
+    <ingredient quantity="0" unit="" food="ice cube">broken ice</ingredient>
+    <ingredient quantity="2" unit="" food="lime">2 lime</ingredient>
+    <ingredient quantity="1" unit="" food="strawberry">1 strawberry</ingredient>
+    <ingredient quantity="20" unit="cl" food="tequila">20 cl tequila</ingredient>
+    <ingredient quantity="12" unit="cl" food="cointreau">12 cl cointreau</ingredient>
+    <ingredient quantity="2" unit="tsp" food="sugar">2 tsp sugar</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Wash and hull strawberries. Put ice cubes in a food processor and mix with strawberries.</step>
+    <step>Squeeze the limes. Put the tequila, Cointreau and lemon juice in a measuring with 2 tablespoons sugar.</step>
+    <step>Mix and pour into a blender with crushed ice and strawberries.</step>
+    <step>Decorate glasses of sugar (wet glasses in lemon juice and then dip them in sugar).</step>
+    <step>Divide cocktail in glasses and health!}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Pink cocktail pink grapefruit</title>
+  <ingredients>
+    <ingredient quantity="75" unit="cl" food="blush wine">75 cl blush wine</ingredient>
+    <ingredient quantity="30" unit="cl" food="grapefruit juice">30 cl grapefruit juice</ingredient>
+    <ingredient quantity="5" unit="cl" food="grenadine">5 cl grenadine</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a large pitcher, pour the grenadine syrup and rose wine and grapefruit juice.</step>
+    <step>Serve chilled.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Bacardi cocktail, grenadine, lemon</title>
+  <ingredients>
+    <ingredient quantity="24" unit="cl" food="rum">24 cl rum</ingredient>
+    <ingredient quantity="6" unit="cl" food="Grenadine">6 cl Grenadine syrup</ingredient>
+    <ingredient quantity="12" unit="cl" food="lemon juice">12 cl lemon juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Put the grenadine syrup, lemon juice and Bacardi in a shaker.</step>
+    <step>Strongly shake.</step>
+    <step>Pour into glasses and serve immediately.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>MTS Cocktail</title>
+  <ingredients>
+    <ingredient quantity="50" unit="cl" food="martini">50 cl martini</ingredient>
+    <ingredient quantity="25" unit="cl" food="triple sec">25 cl triple sec</ingredient>
+    <ingredient quantity="25" unit="cl" food="cane sugar syrup">25 cl cane sugar syrup</ingredient>
+    <ingredient quantity="50" unit="cl" food="multivitamin juice">50 cl multivitamin juice</ingredient>
+  </ingredients>
+  <preparation>
+    <step>In a large pitcher, combine all ingredients and mix. Let stand one hour in the refrigerator.</step>
+    <step>A taste very fresh.}}</step>
+  </preparation>
+</recipe>
+  <recipe>
+  <title>Madras Cocktail</title>
+  <ingredients>
+    <ingredient quantity="40" unit="cl" food="Orange juice">40 cl Orange juice</ingredient>
+    <ingredient quantity="20" unit="cl" food="white wine">20 cl white wine</ingredient>
+    <ingredient quantity="5" unit="cl" food="Grenadine">5 cl Grenadine</ingredient>
+  </ingredients>
+  <preparation>
+    <step>Mix orange juice with white wine.</step>
+    <step>Pour into glasses. Add a dash of grenadine.}}</step>
+  </preparation>
+</recipe>
+</recipes>
