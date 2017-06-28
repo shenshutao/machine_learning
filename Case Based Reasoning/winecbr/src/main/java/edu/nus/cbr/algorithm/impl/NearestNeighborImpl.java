@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class NearestNeighborImpl implements NearestNeighbor {
     @Override
-    public List<CaseRepresentation> retrieveSimilarCases(CaseRepresentation target) {
+    public List<CaseRepresentation> retrieveSimilarCases(CaseRepresentation target, int number) {
 
         //
 

@@ -9,5 +9,5 @@ import java.util.List;
  */
 public interface NearestNeighbor {
 
-    public List<CaseRepresentation> retrieveSimilarCases(CaseRepresentation target);
+    public List<CaseRepresentation> retrieveSimilarCases(CaseRepresentation target, int number);
 }

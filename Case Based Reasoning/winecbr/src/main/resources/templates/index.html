@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Find your cocktail receipt</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}" href="../../css/main.css"/>
+</head>
+<body>
+<h1> Find your cocktail receipt</h1>
+
+<form action="retrievecase">
+    <table>
+        <tr>
+            <td><h3>What ingredients do you have:</h3></td>
+        </tr>
+        <tr>
+            <td><textarea name="ingredients" cols="40" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><h3>What kind of cocktail do you want:</h3></td>
+        </tr>
+        <tr>
+            <td>Contain sugar or not:</td>
+            <td>
+                <select name="sugar">
+                    <option value="YES">Yes</option>
+                    <option value="NO">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Contain alcohol or not:</td>
+            <td>
+                <select name="alcohol">
+                    <option value="YES">Yes</option>
+                    <option value="NO">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>How many receipt you want retrieve:</td>
+            <td><input name="number"/></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>

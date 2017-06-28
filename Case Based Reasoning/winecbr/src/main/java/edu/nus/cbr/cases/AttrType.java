@@ -5,5 +5,8 @@ package edu.nus.cbr.cases;
  */
 public enum AttrType {
         NOMINAL,
-        NUMBER;
+        NUMBER,
+        IngredientsCategory;
+
+
 }
