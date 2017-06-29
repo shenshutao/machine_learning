@@ -6,7 +6,8 @@ import java.util.Map;
 import edu.nus.cbr.algorithm.NearestNeighbor;
 import edu.nus.cbr.algorithm.impl.NearestNeighborImpl;
 import edu.nus.cbr.cases.CaseRepresentation;
-import org.springframework.beans.factory.annotation.Value;
+import edu.nus.cbr.cases.attributetypes.AlcoholAttr;
+import edu.nus.cbr.cases.attributetypes.TureorFalseAttr;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,19 +15,21 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class CbrController {
 
-	@RequestMapping("/")
-	public String index(Map<String, Object> model) {
-		return "index";
-	}
+    @RequestMapping("/")
+    public String index(Map<String, Object> model) {
+        return "index";
+    }
 
-	@RequestMapping("/retrievecase")
-	public String retrieveCase(@RequestParam("ingredients") String ingredients, @RequestParam("sugar") String sugar, @RequestParam("number") int number,  Map<String, Object> model) {
+    @RequestMapping("/retrievecase")
+    public String retrieveCase(@RequestParam("ingredients") String ingredients, @RequestParam("sugar") TureorFalseAttr sugar, @RequestParam("alcohol") AlcoholAttr alcohol, @RequestParam("number") int number, Map<String, Object> model) {
         CaseRepresentation newCase = new CaseRepresentation();
+//        newCase.addAttribute();
+
 
         NearestNeighbor nearestNeighbor = new NearestNeighborImpl();
         List<CaseRepresentation> similarCases = nearestNeighbor.retrieveSimilarCases(newCase, number);
 
 
-		return "welcome";
-	}
+        return "welcome";
+    }
 }
