@@ -105,14 +105,14 @@ public class NearestNeighborImpl implements NearestNeighbor {
         return caseList;
     }
 
-    public static void main(String[] args) {
-        try {
-            NearestNeighborImpl nearestNeighbor = new NearestNeighborImpl();
-            nearestNeighbor.retrieveSimilarCases(new Case(), 4);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    public static void main(String[] args) {
+//        try {
+//            NearestNeighborImpl nearestNeighbor = new NearestNeighborImpl();
+//            nearestNeighbor.retrieveSimilarCases(new Case(), 4);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
 
     public static List<String> parseLine(String cvsLine, char separators, char customQuote) {

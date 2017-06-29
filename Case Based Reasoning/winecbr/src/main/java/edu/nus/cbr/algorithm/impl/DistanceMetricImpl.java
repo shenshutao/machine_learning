@@ -66,8 +66,8 @@ public class DistanceMetricImpl implements DistanceMetric {
         }
     }
 
-    public static void main(String args[]) {
-        DistanceMetricImpl dm = new DistanceMetricImpl();
-        System.out.println(dm.calIngredientsDistance("a;b;c", "A;b;c"));
-    }
+//    public static void main(String args[]) {
+//        DistanceMetricImpl dm = new DistanceMetricImpl();
+//        System.out.println(dm.calIngredientsDistance("a;b;c", "A;b;c"));
+//    }
 }
