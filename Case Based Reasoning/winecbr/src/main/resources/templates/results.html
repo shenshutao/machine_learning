@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>Distance</th>
+        <th>Receipt No</th>
+        <!--<th>Description</th>-->
+    </tr>
+    <tr th:each="similarCase : ${similarCaseList}">
+        <td th:text="${similarCase.distance}"></td>
+        <td th:text="${similarCase.similarCase.receiptId}"></td>
+        <!--<td th:text="${similarCase.similarCase.description}"></td>-->
+    </tr>
+</table>

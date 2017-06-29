@@ -1,6 +1,7 @@
 package edu.nus.cbr.algorithm;
 
-import edu.nus.cbr.cases.CaseRepresentation;
+import edu.nus.cbr.algorithm.impl.SimilarCase;
+import edu.nus.cbr.data.Case;
 
 import java.util.List;
 
@@ -9,5 +10,5 @@ import java.util.List;
  */
 public interface NearestNeighbor {
 
-    public List<CaseRepresentation> retrieveSimilarCases(CaseRepresentation target, int number);
+    public List<SimilarCase> retrieveSimilarCases(Case target, int number) throws Exception;
 }
