@@ -63,7 +63,7 @@ public class NearestNeighborImpl implements NearestNeighbor {
                         }
                         break;
                     }  else if (i == 0) {
-                        for (int n = number - 1; n > i; n++) {
+                        for (int n = number - 1; n > i; n--) {
                             similarCasesList[n] = similarCasesList[n - 1];
                         }
                         similarCasesList[i] = new SimilarCase(distance, c);
