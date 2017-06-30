@@ -5,7 +5,7 @@ Environment & Tools: Java 8, Spring Boot, IntelliJ.
 <li>Mohamed Mohsin Bin Ismail </li>
 <li>Shen Shutao</li>
 <li>Sudarsan Pula</li>
-<li>Tan Hui Xing</li>
+<li>Tan Hui Xing (Team Leader)</li>
 <li>Zhang Huai Peng</li>
 </ul>
 
