@@ -1,4 +1,4 @@
-Environment & Tools: Java 8, IntelliJ.
+Environment & Tools: Java 8, Spring Boot, IntelliJ.
 
 <h1>Team member & designers</h1>
 <ul>
