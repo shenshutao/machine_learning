@@ -3,7 +3,8 @@ package edu.nus.cbr.algorithm.impl;
 import edu.nus.cbr.algorithm.DistanceMetric;
 import edu.nus.cbr.algorithm.NearestNeighbor;
 import edu.nus.cbr.cases.attributetypes.AlcoholAttr;
-import edu.nus.cbr.cases.attributetypes.FlaverAttr;
+import edu.nus.cbr.cases.attributetypes.FlavourAttr;
+import edu.nus.cbr.cases.attributetypes.NoOfIngredientsAttr;
 import edu.nus.cbr.cases.attributetypes.TureOrFalseAttr;
 import edu.nus.cbr.data.Case;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,27 +27,31 @@ public class NearestNeighborImpl implements NearestNeighbor {
 
 
     @Value("${case.library.file}")
-    private String csvFile = "src/main/resources/cocktailcasebase.csv";
+    private String csvFile = "cocktailcasebase.csv";
 
     @Autowired
     DistanceMetric distanceMetric;
 
     @Override
-    public List<SimilarCase> retrieveSimilarCases(Case target, int number) throws Exception {
+    public List<SimilarCase> retrieveSimilarCases(Case target, Weights weights, int number) throws Exception {
 
         SimilarCase[] similarCasesList = new SimilarCase[number];
         List<Case> caseInLibList = readCasesFromCSVFile();
 
-
         /*
-         * 1.Normalization not required for current fields.
+         * 1.Normalization No of Liquid. Other fields already normalized
+         * Simple way, min 0, max 5
          */
+        for (Case c1 : caseInLibList) {
+            double afterNorm = (c1.getNumOfLiquid() - 0) / (5 - 0);
+            c1.setNumOfLiquid(afterNorm);
+        }
 
         /*
          * 2.Calculate distance.
          */
         for (Case c : caseInLibList) {
-            double distance = distanceMetric.calDistance(c, target);
+            double distance = distanceMetric.calDistance(c, target, weights);
             if (similarCasesList[0] == null) {
                 similarCasesList[0] = new SimilarCase(distance, c);
             } else {
@@ -56,13 +61,13 @@ public class NearestNeighborImpl implements NearestNeighbor {
                     }
                     if (distance > similarCasesList[i].getDistance()) {
                         if (i < number - 1) {
-                            for (int n = number - 1; n > i+1; n--) {
+                            for (int n = number - 1; n > i + 1; n--) {
                                 similarCasesList[n] = similarCasesList[n - 1];
                             }
-                            similarCasesList[i+1] = new SimilarCase(distance, c);
+                            similarCasesList[i + 1] = new SimilarCase(distance, c);
                         }
                         break;
-                    }  else if (i == 0) {
+                    } else if (i == 0) {
                         for (int n = number - 1; n > i; n--) {
                             similarCasesList[n] = similarCasesList[n - 1];
                         }
@@ -82,7 +87,7 @@ public class NearestNeighborImpl implements NearestNeighbor {
         List<Case> caseList = new ArrayList<>();
         while (scanner.hasNext()) {
             String line = scanner.nextLine();
-            List<String> split = parseLine(line, ',', '\"');
+            List<String> split = parseLine(line);
             System.out.println(" 0" + split.get(0) + " 1" + split.get(1) + " 2" + split.get(2) + " 3" + split.get(3) + " 4" + split.get(4) + " 5" + split.get(5) + " 6" + split.get(6) + " 7" + split.get(7) + " 8" + split.get(8) + " 9" + split.get(9) + " 10" + split.get(10));
 
             Case c = new Case();
@@ -90,13 +95,14 @@ public class NearestNeighborImpl implements NearestNeighbor {
             c.setDrinkName(split.get(1));
             c.setIngredients(split.get(2));
             c.setSugar(TureOrFalseAttr.permissiveValueOf(split.get(3)));
-            c.setAlochol(AlcoholAttr.permissiveValueOf(split.get(4)));
-            c.setDescription(split.get(11));
-//            c.setNumOfLiquid(Integer.valueOf(split.get(5)));
-//            c.setNumOfIngredients(Integer.valueOf(split.get(6)));
+            c.setAlcohol(AlcoholAttr.permissiveValueOf(split.get(4)));
+            c.setNumOfLiquid(Double.valueOf(split.get(5)));
+            c.setNumOfIngredients(NoOfIngredientsAttr.permissiveValueOf(Integer.valueOf(split.get(6))));
             c.setFruit(TureOrFalseAttr.permissiveValueOf(split.get(7)));
             c.setJuice(TureOrFalseAttr.permissiveValueOf(split.get(8)));
-            c.setFlaver(FlaverAttr.permissiveValueOf(split.get(9)));
+            c.setFlavour(FlavourAttr.permissiveValueOf(split.get(9)));
+
+            c.setDescription(split.get(10));
 
             caseList.add(c);
         }
@@ -115,7 +121,7 @@ public class NearestNeighborImpl implements NearestNeighbor {
 //    }
 
 
-    public static List<String> parseLine(String cvsLine, char separators, char customQuote) {
+    public static List<String> parseLine(String cvsLine) {
 
         List<String> result = new ArrayList<>();
 
@@ -124,13 +130,8 @@ public class NearestNeighborImpl implements NearestNeighbor {
             return result;
         }
 
-        if (customQuote == ' ') {
-            customQuote = DEFAULT_QUOTE;
-        }
-
-        if (separators == ' ') {
-            separators = DEFAULT_SEPARATOR;
-        }
+        char customQuote = DEFAULT_QUOTE;
+        char separators = DEFAULT_SEPARATOR;
 
         StringBuffer curVal = new StringBuffer();
         boolean inQuotes = false;

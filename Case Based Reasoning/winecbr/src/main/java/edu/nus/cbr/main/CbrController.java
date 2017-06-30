@@ -2,7 +2,10 @@ package edu.nus.cbr.main;
 
 import edu.nus.cbr.algorithm.impl.NearestNeighborImpl;
 import edu.nus.cbr.algorithm.impl.SimilarCase;
+import edu.nus.cbr.algorithm.impl.Weights;
 import edu.nus.cbr.cases.attributetypes.AlcoholAttr;
+import edu.nus.cbr.cases.attributetypes.FlavourAttr;
+import edu.nus.cbr.cases.attributetypes.NoOfIngredientsAttr;
 import edu.nus.cbr.cases.attributetypes.TureOrFalseAttr;
 import edu.nus.cbr.data.Case;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,41 +26,43 @@ public class CbrController {
 
     @RequestMapping("/")
     public String index(Map<String, Object> model) {
+        Weights weights = new Weights();
+        model.put("weights", weights);
         return "index";
     }
 
     @RequestMapping("/retrievecase")
-    public String retrieveCase(@RequestParam("ingredients") String ingredients, @RequestParam("sugar") TureOrFalseAttr sugar, @RequestParam("alcohol") AlcoholAttr alcohol, @RequestParam("number") int number, Map<String, Object> model) throws Exception {
+    public String retrieveCase(@RequestParam("ingredients") String ingredients,
+                               @RequestParam("sugar") TureOrFalseAttr sugar,
+                               @RequestParam("alcohol") AlcoholAttr alcohol,
+                               @RequestParam("fruit") TureOrFalseAttr fruit,
+                               @RequestParam("juice") TureOrFalseAttr juice,
+                               @RequestParam("flavour") FlavourAttr flavour,
+                               @RequestParam(value = "noofliquid", required = false) Double noofliquid,
+                               @RequestParam("noofingred") NoOfIngredientsAttr noofingred,
+                               @RequestParam("number") int number,
+                               Map<String, Object> model) throws Exception {
         Case newCase = new Case();
-        newCase.setAlochol(alcohol);
+        newCase.setAlcohol(alcohol);
         newCase.setSugar(sugar);
         newCase.setIngredients(ingredients);
+        newCase.setFruit(fruit);
+        newCase.setJuice(juice);
+        newCase.setFlavour(flavour);
+        newCase.setNumOfLiquid(noofliquid);
+        newCase.setNumOfIngredients(noofingred);
 
-        List<SimilarCase> cases = nearestNeighbor.retrieveSimilarCases(newCase, number);
+        Weights weights = new Weights();
+
+
+        List<SimilarCase> cases = nearestNeighbor.retrieveSimilarCases(newCase, weights, number);
 
         model.put("similarCaseList", cases);
 
-        for(SimilarCase sc : cases) {
+        for (SimilarCase sc : cases) {
             System.out.println(sc.getSimilarCase().toString());
         }
 
         return "results";
     }
-
-//    @RequestMapping("/retrievecase")
-//    @ResponseBody
-//    @Transactional(readOnly = true)
-//    public String retrieveCase(@RequestParam("ingredients") String ingredients, @RequestParam("sugar") TureOrFalseAttr sugar, @RequestParam("alcohol") AlcoholAttr alcohol, @RequestParam("number") int number, Map<String, Object> model) {
-//        CaseRepresentation newCase = new CaseRepresentation();
-////        newCase.addAttribute();
-//
-//
-//        NearestNeighbor nearestNeighbor = new NearestNeighborImpl();
-//        List<CaseRepresentation> similarCases = nearestNeighbor.retrieveSimilarCases(newCase, number);
-//
-//
-//        this.caseService.findAll();
-//
-//        return "welcome";
-//    }
 }

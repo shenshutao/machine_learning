@@ -11,37 +11,121 @@
 <form action="retrievecase">
     <table>
         <tr>
-            <td><h3>What ingredients do you have:</h3></td>
+            <td><h3>What ingredients do you have:</h3>
+                <p>(Ingredients separate by semicolon)</p>
+                <p>(Sample: 'orange juice;coconut;sour cream')</p>
+            </td>
         </tr>
         <tr>
             <td><textarea name="ingredients" cols="40" rows="5"></textarea></td>
+            <td/>
+            <td><span th:text="${weights.weightIngredients}"></span></td>
         </tr>
         <tr>
             <td><h3>What kind of cocktail do you want:</h3></td>
         </tr>
         <tr>
-            <td>Contain sugar or not:</td>
+            <td><h5>Contain sugar or not:</h5></td>
             <td>
                 <select name="sugar">
-                    <option value=""></option>
-                    <option value="YES">Yes</option>
-                    <option value="NO">No</option>
+                    <option value="">-</option>
+                    <option value="TRUE">Yes</option>
+                    <option value="FALSE">No</option>
                 </select>
+            </td>
+            <td>
+                <span th:text="${weights.weightSugar}"></span>
             </td>
         </tr>
         <tr>
-            <td>Contain alcohol or not:</td>
+            <td><h5>Contain alcohol or not:</h5></td>
             <td>
                 <select name="alcohol">
-                    <option value=""></option>
+                    <option value="">-</option>
                     <option value="HIGH">Strong</option>
                     <option value="LOW">Low</option>
                     <option value="NONE">None</option>
                 </select>
             </td>
+            <td>
+                <span th:text="${weights.weightAlcohol}"></span>
+            </td>
         </tr>
         <tr>
-            <td>How many receipt you want retrieve:</td>
+            <td><h5>Contain fruit or not:</h5></td>
+            <td>
+                <select name="fruit">
+                    <option value="">-</option>
+                    <option value="TRUE">Yes</option>
+                    <option value="FALSE">No</option>
+                </select>
+            </td>
+            <td>
+                <span th:text="${weights.weightFruit}"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><h5>Contain juice or not:</h5></td>
+            <td>
+                <select name="juice">
+                    <option value="">-</option>
+                    <option value="TRUE">Yes</option>
+                    <option value="FALSE">No</option>
+                </select>
+            </td>
+            <td>
+                <span th:text="${weights.weightJuice}"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><h5>Flavour:</h5></td>
+            <td>
+                <select name="flavour">
+                    <option value="">-</option>
+                    <option value="SWEET">Sweet</option>
+                    <option value="SOUR">Sour</option>
+                    <option value="SPICY">Spicy</option>
+                    <option value="MINTY">Minty</option>
+                    <option value="SALTY">Salty</option>
+                </select>
+            </td>
+            <td>
+                <span th:text="${weights.weightFlavour}"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><h5>No of liquid ingredients:</h5></td>
+            <td>
+                <select name="noofliquid">
+                    <option value="">-</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </td>
+            <td>
+                <span th:text="${weights.weightNoOfLiquid}"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><h5>No of ingredients:</h5></td>
+            <td>
+                <select name="noofingred">
+                    <option value="">-</option>
+                    <option value="LESSTHREE"> 3 or Less than 3</option>
+                    <option value="THREESEVEN">3 to 7</option>
+                    <option value="MORESEVEN">More than 7</option>
+                </select>
+            </td>
+            <td>
+                <span th:text="${weights.weightNoOfIngredients}"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><h3>How many receipt you want retrieve:</h3></td>
             <td>
                 <select name="number">
                     <option value="1">1</option>

@@ -3,18 +3,18 @@ package edu.nus.cbr.cases.attributetypes;
 /**
  * Created by shutao on 29/6/17.
  */
-public enum AlcoholAttr {
+public enum AlcoholAttr implements BasicAttr {
     HIGH(1),
     LOW(0.5),
     NONE(0);
 
-    private double num;
+    private Double num;
 
     AlcoholAttr(double s) {
         this.num = s;
     }
 
-    public double getNum() {
+    public Double getNum() {
         return this.num;
     }
 
