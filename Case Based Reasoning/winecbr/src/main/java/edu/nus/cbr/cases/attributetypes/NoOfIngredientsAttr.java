@@ -22,12 +22,24 @@ public enum NoOfIngredientsAttr implements BasicAttr {
         if (number == null) {
             return null;
         }
-        if (number <= 3) {
+        if (number < 3) {
             return NoOfIngredientsAttr.LESSTHREE;
-        } else if (number > 3 && number <= 7) {
+        } else if (number >= 3 && number <= 7) {
             return NoOfIngredientsAttr.THREESEVEN;
         } else {
             return NoOfIngredientsAttr.MORESEVEN;
+        }
+    }
+
+    public String toString() {
+        if (NoOfIngredientsAttr.LESSTHREE.equals(this)) {
+            return "less than 3";
+        } else if (NoOfIngredientsAttr.THREESEVEN.equals(this)) {
+            return "3 to 7";
+        } else if (NoOfIngredientsAttr.MORESEVEN.equals(this)) {
+            return "more than 7";
+        } else {
+            return null;
         }
     }
 }

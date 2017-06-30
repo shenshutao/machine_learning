@@ -20,24 +20,34 @@ public class DistanceMetricImpl implements DistanceMetric {
     private static final String DEFAULT_INGREDIENTS_SEPARATOR = ";";
 
     @Override
-    public double calDistance(Case caseInLib, Case newCase, Weights weights) {
+    public double calSimilarity(Case caseInLib, Case newCase, Weights weights) {
         double distanceIngredients = calIngredientsDistance(caseInLib.getIngredients(), newCase.getIngredients());
         double distanceSugar = calTrueOrFalseDistance(caseInLib.getSugar(), newCase.getSugar());
         double distanceAlcohol = calCustomDistance(caseInLib.getAlcohol(), newCase.getAlcohol());
         double distanceFruit = calTrueOrFalseDistance(caseInLib.getFruit(), newCase.getFruit());
         double distanceJuice = calTrueOrFalseDistance(caseInLib.getJuice(), newCase.getJuice());
         double distanceFlavour = calFlavourDistance(caseInLib.getFlavour(), newCase.getFlavour());
-        double distanceNoOfIngredients = calCustomDistance(caseInLib.getNumOfIngredients(), newCase.getNumOfIngredients());
-        double distanceNoOfLiquid = calNormalDistance(caseInLib.getNumOfLiquid(), newCase.getNumOfLiquid());
+        double distanceNoOfIngredients = calCustomDistance(caseInLib.getNoOfIngredients(), newCase.getNoOfIngredients());
+        double distanceNoOfLiquid = calNormalDistance(caseInLib.getNoOfLiquid(), newCase.getNoOfLiquid());
 
-        double result = Math.sqrt(Math.pow(2, distanceIngredients) * weights.getWeightIngredients()
-                + Math.pow(2, distanceSugar) * weights.getWeightSugar()
-                + Math.pow(2, distanceAlcohol) * weights.getWeightAlcohol()
-                + Math.pow(2, distanceFruit) * weights.getWeightFruit()
-                + Math.pow(2, distanceJuice) * weights.getWeightJuice()
-                + Math.pow(2, distanceFlavour) * weights.getWeightFlavour()
-                + Math.pow(2, distanceNoOfIngredients) * weights.getWeightNoOfIngredients()
-                + Math.pow(2, distanceNoOfLiquid) * weights.getWeightNoOfLiquid());
+        double similarityIngredients = 1 - Math.abs(distanceIngredients);
+        double similaritySugar = 1 - Math.abs(distanceSugar);
+        double similarityAlcohol = 1 - Math.abs(distanceAlcohol);
+        double similarityFruit = 1 - Math.abs(distanceFruit);
+        double similarityJuice = 1 - Math.abs(distanceJuice);
+        double similarityFlavour = 1 - Math.abs(distanceFlavour);
+        double similarityNoOfIngredients = 1 - Math.abs(distanceNoOfIngredients);
+        double similarityNoOfLiquid = 1 - Math.abs(distanceNoOfLiquid);
+
+        double result =
+                similarityIngredients * weights.getWeightIngredients()
+                        + similaritySugar * weights.getWeightSugar()
+                        + similarityAlcohol * weights.getWeightAlcohol()
+                        + similarityFruit * weights.getWeightFruit()
+                        + similarityJuice * weights.getWeightJuice()
+                        + similarityFlavour * weights.getWeightFlavour()
+                        + similarityNoOfIngredients * weights.getWeightNoOfIngredients()
+                        + similarityNoOfLiquid * weights.getWeightNoOfLiquid();
 
         return result;
     }

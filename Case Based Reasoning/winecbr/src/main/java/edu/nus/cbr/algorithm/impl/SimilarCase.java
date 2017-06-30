@@ -10,11 +10,12 @@ import lombok.Setter;
 @Setter
 @Getter
 public class SimilarCase {
-    private double distance;
-    private Case similarCase;
+    private double similarity;
+    private Case caseObj;
 
-    public SimilarCase(double distance, Case similarCase) {
-        this.distance = distance;
-        this.similarCase = similarCase;
+    public SimilarCase(double similarity, Case similarCase) {
+        this.similarity = similarity;
+        this.caseObj = similarCase;
+
     }
 }

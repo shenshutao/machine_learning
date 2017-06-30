@@ -38,8 +38,16 @@ public class CbrController {
                                @RequestParam("fruit") TureOrFalseAttr fruit,
                                @RequestParam("juice") TureOrFalseAttr juice,
                                @RequestParam("flavour") FlavourAttr flavour,
-                               @RequestParam(value = "noofliquid", required = false) Double noofliquid,
+                               @RequestParam("noofliquid") Double noofliquid,
                                @RequestParam("noofingred") NoOfIngredientsAttr noofingred,
+                               @RequestParam("weightIngredients") Double weightIngredients,
+                               @RequestParam("weightSugar") Double weightSugar,
+                               @RequestParam("weightAlcohol") Double weightAlcohol,
+                               @RequestParam("weightFruit") Double weightFruit,
+                               @RequestParam("weightJuice") Double weightJuice,
+                               @RequestParam("weightFlavour") Double weightFlavour,
+                               @RequestParam("weightNoOfIngredients") Double weightNoOfIngredients,
+                               @RequestParam("weightNoOfLiquid") Double weightNoOfLiquid,
                                @RequestParam("number") int number,
                                Map<String, Object> model) throws Exception {
         Case newCase = new Case();
@@ -49,19 +57,25 @@ public class CbrController {
         newCase.setFruit(fruit);
         newCase.setJuice(juice);
         newCase.setFlavour(flavour);
-        newCase.setNumOfLiquid(noofliquid);
-        newCase.setNumOfIngredients(noofingred);
+        newCase.setNoOfLiquid(noofliquid);
+        newCase.setNoOfIngredients(noofingred);
 
         Weights weights = new Weights();
-
+        weights.setWeightIngredients(weightIngredients);
+        weights.setWeightSugar(weightSugar);
+        weights.setWeightAlcohol(weightAlcohol);
+        weights.setWeightFruit(weightFruit);
+        weights.setWeightJuice(weightJuice);
+        weights.setWeightFlavour(weightFlavour);
+        weights.setWeightNoOfIngredients(weightNoOfIngredients);
+        weights.setWeightNoOfLiquid(weightNoOfLiquid);
 
         List<SimilarCase> cases = nearestNeighbor.retrieveSimilarCases(newCase, weights, number);
 
+        newCase.setNoOfLiquid(noofliquid);
+        newCase.setNoOfIngredients(noofingred);
+        model.put("newCase", newCase);
         model.put("similarCaseList", cases);
-
-        for (SimilarCase sc : cases) {
-            System.out.println(sc.getSimilarCase().toString());
-        }
 
         return "results";
     }

@@ -2,6 +2,10 @@
 <html xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <style>
+        h1.gap {
+            margin-top: 50px;
+        }
+
         table {
             border-collapse: collapse;
             width: 100%;
@@ -12,6 +16,10 @@
             padding: 8px;
         }
 
+        table, th, td {
+            border: 1px solid black;
+        }
+
         tr:nth-child(even) {
             background-color: #f2f2f2
         }
@@ -20,13 +28,63 @@
             background-color: #4CAF50;
             color: white;
         }
+
+        .adaptation th {
+            background-color: #089faf;
+        }
+
+        .searchcriteria th {
+            background-color: #af6b78;
+            width: 120px;
+        }
+
     </style>
 </head>
 <body>
+<h1>Search Criteria:</h1>
+<table class="searchcriteria">
+    <tr>
+        <th>Ingredients</th>
+        <td th:text="${newCase.ingredients}"></td>
+
+    </tr>
+    <tr>
+        <th>Alcohol</th>
+        <td th:text="${newCase.alcohol}"></td>
+    </tr>
+    <tr>
+        <th>Sugar</th>
+        <td th:text="${newCase.sugar}"></td>
+    </tr>
+    <tr>
+        <th>Fruit</th>
+        <td th:text="${newCase.fruit}"></td>
+    </tr>
+    <tr>
+        <th>Juice</th>
+        <td th:text="${newCase.juice}"></td>
+    </tr>
+    <tr>
+        <th>Flavour</th>
+        <td th:text="${newCase.flavour}"></td>
+    </tr>
+    <tr>
+        <th>No. of Liquid</th>
+        <td th:text="${newCase.noOfLiquid}"></td>
+    </tr>
+    <tr>
+        <th>No. of Ingredients</th>
+        <td th:text="${newCase.noOfIngredients}"></td>
+    </tr>
+</table>
+
+
+<h1 class="gap">NN Retrieval Result:</h1>
 <table>
     <tr>
-        <th>Distance</th>
+        <th>Similarity</th>
         <th>Receipt No</th>
+        <th>Name</th>
         <th>Ingredients</th>
         <th>Sugar</th>
         <th>Alcohol</th>
@@ -36,16 +94,375 @@
         <th>Description</th>
     </tr>
     <tr th:each="similarCase : ${similarCaseList}">
-        <td th:text="${similarCase.distance}"></td>
-        <td th:text="${similarCase.similarCase.receiptId}"></td>
-        <td th:text="${similarCase.similarCase.ingredients}"></td>
-        <td th:text="${similarCase.similarCase.sugar}"></td>
-        <td th:text="${similarCase.similarCase.alcohol}"></td>
-        <td th:text="${similarCase.similarCase.fruit}"></td>
-        <td th:text="${similarCase.similarCase.juice}"></td>
-        <td th:text="${similarCase.similarCase.flavour}"></td>
-        <td th:text="${similarCase.similarCase.description}"></td>
+        <td th:text="${similarCase.similarity}"></td>
+        <td th:text="${similarCase.caseObj.receiptId}"></td>
+        <td th:text="${similarCase.caseObj.drinkName}"></td>
+        <td th:text="${similarCase.caseObj.ingredients}"></td>
+        <td th:text="${similarCase.caseObj.sugar}"></td>
+        <td th:text="${similarCase.caseObj.alcohol}"></td>
+        <td th:text="${similarCase.caseObj.fruit}"></td>
+        <td th:text="${similarCase.caseObj.juice}"></td>
+        <td th:text="${similarCase.caseObj.flavour}"></td>
+        <td th:text="${similarCase.caseObj.description}"></td>
     </tr>
 </table>
+
+
+<h1 class="gap">Adaptation Suggestions:</h1>
+<h3>Do the results not have the taste you are looking for? Try adding these to achieve the flavour you desire:</h3>
+<table class="adaptation">
+    <tr>
+        <th>minty</th>
+        <th>salty</th>
+        <th>sour</th>
+        <th>spicy</th>
+        <th>sweet</th>
+    </tr>
+    <tr>
+        <td>mint</td>
+        <td>salt</td>
+        <td>sour cream</td>
+        <td>tabasco sauce</td>
+        <td>any sugar/syrup</td>
+    </tr>
+    <tr>
+        <td>mint syrup</td>
+        <td>celery salt</td>
+        <td></td>
+        <td>wasabi</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>pepper</td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Do the results not have the ingredients you want to use? Items from the same category are interchangeable and can be
+    swapped around to adapt the recipe:</h3>
+<table class="adaptation">
+    <tr>
+        <th>Alcohols</th>
+        <th>Fruit</th>
+        <th>Juices</th>
+        <th>Sugars/Syrups</th>
+    </tr>
+    <tr>
+        <td>Amber rum</td>
+        <td>apple</td>
+        <td>apple juice</td>
+        <td>brown sugar</td>
+    </tr>
+    <tr>
+        <td>Angostura bitter</td>
+        <td>apricot</td>
+        <td>Apricot juice</td>
+        <td>cane sugar</td>
+    </tr>
+    <tr>
+        <td>apple cider</td>
+        <td>banana</td>
+        <td>Banana juice</td>
+        <td>cane sugar syrup</td>
+    </tr>
+    <tr>
+        <td>apple liqueur</td>
+        <td>berry</td>
+        <td>berry juice</td>
+        <td>Currant syrup</td>
+    </tr>
+    <tr>
+        <td>apricot liqueur</td>
+        <td>blackcurrant</td>
+        <td>Cherry juice</td>
+        <td>fruit syrup</td>
+    </tr>
+    <tr>
+        <td>beer</td>
+        <td>blood orange</td>
+        <td>Cranberry juice</td>
+        <td>Granulated sugar</td>
+    </tr>
+    <tr>
+        <td>Benedictine</td>
+        <td>cherry</td>
+        <td>grape juice</td>
+        <td>Lemon syrup</td>
+    </tr>
+    <tr>
+        <td>Blue curacao</td>
+        <td>citrus fruit</td>
+        <td>grapefruit juice</td>
+        <td>Mangalore</td>
+    </tr>
+    <tr>
+        <td>blush wine</td>
+        <td>clementine orange</td>
+        <td>guava juice</td>
+        <td>mint syrup</td>
+    </tr>
+    <tr>
+        <td>cachaca</td>
+        <td>coconut</td>
+        <td>juice</td>
+        <td>Orange syrup</td>
+    </tr>
+    <tr>
+        <td>calvados</td>
+        <td>cucumbers</td>
+        <td>lemon juice</td>
+        <td>orgeat</td>
+    </tr>
+    <tr>
+        <td>campari</td>
+        <td>currant</td>
+        <td>Lime juice</td>
+        <td>passion fruit syrup</td>
+    </tr>
+    <tr>
+        <td>cava</td>
+        <td>fruit</td>
+        <td>Litchi juice</td>
+        <td>peach syrup</td>
+    </tr>
+    <tr>
+        <td>champagne</td>
+        <td>grapefruit</td>
+        <td>Manguo juice</td>
+        <td>powdered sugar</td>
+    </tr>
+    <tr>
+        <td>coffee liqueur</td>
+        <td>kiwi fruit</td>
+        <td>multivitamin juice</td>
+        <td>sangria syrup</td>
+    </tr>
+    <tr>
+        <td>cognac</td>
+        <td>kumquat</td>
+        <td>Orange juice</td>
+        <td>strawberry syrup</td>
+    </tr>
+    <tr>
+        <td>cointreau</td>
+        <td>lemon</td>
+        <td>Passion fruit juice</td>
+        <td>syrup</td>
+    </tr>
+    <tr>
+        <td>Cremant</td>
+        <td>lemon slice</td>
+        <td>peach juice</td>
+        <td>vanilla sugar</td>
+    </tr>
+    <tr>
+        <td>Creme de cafe</td>
+        <td>lime</td>
+        <td>Pear juice</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Creme de cassis</td>
+        <td>litchi</td>
+        <td>pineapple juice</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dark rum</td>
+        <td>melon</td>
+        <td>Strawberry juice</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>dry white wine</td>
+        <td>orange</td>
+        <td>sugar</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Get_27</td>
+        <td>pear</td>
+        <td>Tamarin juice</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Gin</td>
+        <td>pineapple</td>
+        <td>tomato juice</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>grand marnier</td>
+        <td>raspberry</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Hard cider</td>
+        <td>strawberry</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>kirsch</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>lemon liqueur</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>liqueur</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Litchi liqueur</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>malibu rum</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>martini</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Noilly Prat</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Noilly_Prat</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>pastis</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>pear liqueur</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Plum brandy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Porto</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Prosecco</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>red martini</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Rice wine</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>rum</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>sparkling wine</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>stout</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>tequila</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>triple sec</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Vermouth</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>vodka</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Whiskey</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>White martini</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>white rum</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>white wine</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
 </body>
 </html>

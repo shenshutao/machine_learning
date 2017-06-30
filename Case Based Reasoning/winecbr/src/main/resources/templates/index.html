@@ -15,11 +15,15 @@
                 <p>(Ingredients separate by semicolon)</p>
                 <p>(Sample: 'orange juice;coconut;sour cream')</p>
             </td>
+            <td></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;Weights</td>
         </tr>
         <tr>
             <td><textarea name="ingredients" cols="40" rows="5"></textarea></td>
             <td/>
-            <td><span th:text="${weights.weightIngredients}"></span></td>
+            <td>
+                <input type="text" class="weight" name="weightIngredients" th:value="${weights.weightIngredients}"/>
+            </td>
         </tr>
         <tr>
             <td><h3>What kind of cocktail do you want:</h3></td>
@@ -34,7 +38,7 @@
                 </select>
             </td>
             <td>
-                <span th:text="${weights.weightSugar}"></span>
+                <input type="text" class="weight" name="weightSugar" th:value="${weights.weightSugar}"/>
             </td>
         </tr>
         <tr>
@@ -48,7 +52,7 @@
                 </select>
             </td>
             <td>
-                <span th:text="${weights.weightAlcohol}"></span>
+                <input type="text" class="weight" name="weightAlcohol" th:value="${weights.weightAlcohol}"/>
             </td>
         </tr>
         <tr>
@@ -61,7 +65,7 @@
                 </select>
             </td>
             <td>
-                <span th:text="${weights.weightFruit}"></span>
+                <input type="text" class="weight" name="weightFruit" th:value="${weights.weightFruit}"/>
             </td>
         </tr>
         <tr>
@@ -74,7 +78,7 @@
                 </select>
             </td>
             <td>
-                <span th:text="${weights.weightJuice}"></span>
+                <input type="text" class="weight" name="weightJuice" th:value="${weights.weightJuice}"/>
             </td>
         </tr>
         <tr>
@@ -90,7 +94,7 @@
                 </select>
             </td>
             <td>
-                <span th:text="${weights.weightFlavour}"></span>
+                <input type="text" class="weight" name="weightFlavour" th:value="${weights.weightFlavour}"/>
             </td>
         </tr>
         <tr>
@@ -107,7 +111,7 @@
                 </select>
             </td>
             <td>
-                <span th:text="${weights.weightNoOfLiquid}"></span>
+                <input type="text" class="weight" name="weightNoOfLiquid" th:value="${weights.weightNoOfLiquid}"/>
             </td>
         </tr>
         <tr>
@@ -115,17 +119,30 @@
             <td>
                 <select name="noofingred">
                     <option value="">-</option>
-                    <option value="LESSTHREE"> 3 or Less than 3</option>
+                    <option value="LESSTHREE">Less than 3</option>
                     <option value="THREESEVEN">3 to 7</option>
                     <option value="MORESEVEN">More than 7</option>
                 </select>
             </td>
             <td>
-                <span th:text="${weights.weightNoOfIngredients}"></span>
+                <input type="text" class="weight" name="weightNoOfIngredients"
+                       th:value="${weights.weightNoOfIngredients}"/>
             </td>
         </tr>
+        <!--        <tr>
+                    <td><h3>Weight Adjustment:</h3></td>
+                    <td>
+                        <select name="weights">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>-->
         <tr>
-            <td><h3>How many receipt you want retrieve:</h3></td>
+            <td><h3>How many recipes you want retrieve:</h3></td>
             <td>
                 <select name="number">
                     <option value="1">1</option>
@@ -138,7 +155,7 @@
         </tr>
     </table>
     <br/>
-    <input type="submit" value="submit"/>
+    <input type="submit" value="NN Retrieval"/>
 </form>
 
 </body>

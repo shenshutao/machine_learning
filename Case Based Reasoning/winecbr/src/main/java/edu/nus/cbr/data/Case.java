@@ -22,8 +22,8 @@ public class Case implements Serializable {
     private String ingredients;
     private TureOrFalseAttr sugar;
     private AlcoholAttr alcohol;
-    private Double numOfLiquid;
-    private NoOfIngredientsAttr numOfIngredients;
+    private Double noOfLiquid;
+    private NoOfIngredientsAttr noOfIngredients;
     private TureOrFalseAttr fruit;
     private TureOrFalseAttr juice;
     private FlavourAttr flavour;

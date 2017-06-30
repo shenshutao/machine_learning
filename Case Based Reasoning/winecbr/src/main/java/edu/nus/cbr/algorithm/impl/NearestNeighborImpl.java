@@ -33,7 +33,7 @@ public class NearestNeighborImpl implements NearestNeighbor {
     DistanceMetric distanceMetric;
 
     @Override
-    public List<SimilarCase> retrieveSimilarCases(Case target, Weights weights, int number) throws Exception {
+    public List<SimilarCase> retrieveSimilarCases(Case newCase, Weights weights, int number) throws Exception {
 
         SimilarCase[] similarCasesList = new SimilarCase[number];
         List<Case> caseInLibList = readCasesFromCSVFile();
@@ -43,35 +43,42 @@ public class NearestNeighborImpl implements NearestNeighbor {
          * Simple way, min 0, max 5
          */
         for (Case c1 : caseInLibList) {
-            double afterNorm = (c1.getNumOfLiquid() - 0) / (5 - 0);
-            c1.setNumOfLiquid(afterNorm);
+            if (c1.getNoOfLiquid() != null) {
+                double afterNorm = (c1.getNoOfLiquid() - 0) / (5 - 0);
+                c1.setNoOfLiquid(afterNorm);
+            }
         }
+        if (newCase.getNoOfLiquid() != null) {
+            double afterNorm = (newCase.getNoOfLiquid() - 0) / (5 - 0);
+            newCase.setNoOfLiquid(afterNorm);
+        }
+
 
         /*
          * 2.Calculate distance.
          */
         for (Case c : caseInLibList) {
-            double distance = distanceMetric.calDistance(c, target, weights);
+            double similarity = distanceMetric.calSimilarity(c, newCase, weights);
             if (similarCasesList[0] == null) {
-                similarCasesList[0] = new SimilarCase(distance, c);
+                similarCasesList[0] = new SimilarCase(similarity, c);
             } else {
                 for (int i = number - 1; i >= 0; i--) {
                     if (similarCasesList[i] == null) {
                         continue;
                     }
-                    if (distance > similarCasesList[i].getDistance()) {
+                    if (similarity < similarCasesList[i].getSimilarity()) {
                         if (i < number - 1) {
                             for (int n = number - 1; n > i + 1; n--) {
                                 similarCasesList[n] = similarCasesList[n - 1];
                             }
-                            similarCasesList[i + 1] = new SimilarCase(distance, c);
+                            similarCasesList[i + 1] = new SimilarCase(similarity, c);
                         }
                         break;
                     } else if (i == 0) {
                         for (int n = number - 1; n > i; n--) {
                             similarCasesList[n] = similarCasesList[n - 1];
                         }
-                        similarCasesList[i] = new SimilarCase(distance, c);
+                        similarCasesList[i] = new SimilarCase(similarity, c);
                     }
                 }
             }
@@ -96,13 +103,12 @@ public class NearestNeighborImpl implements NearestNeighbor {
             c.setIngredients(split.get(2));
             c.setSugar(TureOrFalseAttr.permissiveValueOf(split.get(3)));
             c.setAlcohol(AlcoholAttr.permissiveValueOf(split.get(4)));
-            c.setNumOfLiquid(Double.valueOf(split.get(5)));
-            c.setNumOfIngredients(NoOfIngredientsAttr.permissiveValueOf(Integer.valueOf(split.get(6))));
+            c.setNoOfLiquid(Double.valueOf(split.get(5)));
+            c.setNoOfIngredients(NoOfIngredientsAttr.permissiveValueOf(Integer.valueOf(split.get(6))));
             c.setFruit(TureOrFalseAttr.permissiveValueOf(split.get(7)));
             c.setJuice(TureOrFalseAttr.permissiveValueOf(split.get(8)));
             c.setFlavour(FlavourAttr.permissiveValueOf(split.get(9)));
-
-            c.setDescription(split.get(10));
+            c.setDescription(split.get(11));
 
             caseList.add(c);
         }

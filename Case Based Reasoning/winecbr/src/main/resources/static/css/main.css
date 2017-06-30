@@ -14,3 +14,12 @@ h5 {
     font-size: 18px;
     font-weight: normal;
 }
+
+select {
+    width: 150px;
+}
+
+.weight {
+    margin-left: 20px;
+    width: 50px;
+}
