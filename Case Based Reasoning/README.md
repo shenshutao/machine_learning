@@ -1,4 +1,4 @@
-Environment & Tools: Java 8, Spring Boot, Thymeleaf, IntelliJ.
+Environment & Tools: Java 8, Spring Boot, Thymeleaf, Maven assembly, IntelliJ.
 
 <h1>Team member & designers</h1>
 <ul>
