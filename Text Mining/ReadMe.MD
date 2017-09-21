@@ -1,4 +1,4 @@
-<h1>For Stanford NLP libraries: 3-tag-stanford.py</h1> 
+<h1>Stanford NLP libraries: 3-tag-stanford.py</h1> 
 
 <li> Download stanford-postagger-full-2017-06-09.zip from https://nlp.stanford.edu/software/tagger.html
 
@@ -20,3 +20,5 @@ From the original text content, we do following steps:
 
 From Princeton University. 
 https://wordnet.princeton.edu/wordnet/
+
+Use it to find the word's synsets, hypernyms, hyponyms, lemmas ...
