@@ -16,9 +16,10 @@ From the original text content, we do following steps:
 <li> Named Entity Recognizer -> recognize a word/several words is name / orgnization / date and etc.
 
 
-<h1>World Net</li>
+<h1>World Net: 3-wordnet.py</li>
 
 From Princeton University. 
 https://wordnet.princeton.edu/wordnet/
 
 Use it to find the word's synsets, hypernyms, hyponyms, lemmas ...
+Sample: http://wordnetweb.princeton.edu/perl/webwn
