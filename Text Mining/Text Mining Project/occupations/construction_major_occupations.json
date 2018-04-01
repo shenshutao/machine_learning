@@ -1,0 +1,44 @@
+{
+   "occupations":[
+      {
+         "name":"carpenter",
+         "related_words":"carpentry wood cabinet"
+      },
+      {
+         "name":"laborer",
+         "related_words":"pneumatic"
+      },
+      {
+         "name":"mason",
+         "related_words":"brick blocklaying concrete"
+      },
+      {
+         "name":"plasterer",
+         "related_words":"plaster"
+      },
+      {
+         "name":"plumber",
+         "related_words":"plumbing heating drainage"
+      },
+      {
+         "name":"pipefitter",
+         "related_words":"piping pipe"
+      },
+      {
+         "name":"sheet_metal_worker",
+         "related_words":"HVAC duckwork rodbuster"
+      },
+      {
+         "name":"driver",
+         "related_words":"drive"
+      },
+      {
+         "name":"painter",
+         "related_words":"paint decorat"
+      },
+      {
+         "name":"roofworker",
+         "related_words":"roof"
+      }
+   ]
+}
