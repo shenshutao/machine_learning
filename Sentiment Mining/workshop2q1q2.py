@@ -104,7 +104,7 @@ for lp in range(50):
         # train Naive Bayes
         nb_clf = Pipeline([('vect', CountVectorizer(binary=True)), ('clf', MultinomialNB())])
         
-        nb_clf.fit(X_train,y_train ) 
+        nb_clf.fit(X_train,y_train)
         y_test_pred = nb_clf.predict(X_test)
         
         test_results.append(accuracy_score(y_test, y_test_pred))
