@@ -1,22 +1,18 @@
-<h1>Stanford NLP libraries: 3-tag-stanford.py</h1> 
+# NLP (Natural Language Processing)
 
-<li> Download stanford-postagger-full-2017-06-09.zip from https://nlp.stanford.edu/software/tagger.html
+## For workshop week4: Download Stanford NLP libraries
 
-<li> Download stanford-ner-2017-06-09.zip 
-   from https://nlp.stanford.edu/software/CRF-NER.html
-
-<li> Download stanford-corenlp-full-2017-06-09.zip 
-   from https://stanfordnlp.github.io/CoreNLP/
-   
-   
-   
-From the original text content, we do following steps:
+- Download stanford-postagger-full-2017-06-09.zip from https://nlp.stanford.edu/software/tagger.html
+- Download stanford-ner-2017-06-09.zip from https://nlp.stanford.edu/software/CRF-NER.html
+- Download stanford-corenlp-full-2017-06-09.zip from https://stanfordnlp.github.io/CoreNLP/
+      
+## From the original text content, we do following steps:
 <li> Tokenize -> devide the whole sentence into words in list (keep the sequence)
 <li> POS Tagging -> determine a word is noun, adj or others by the word itself & sentence it's in.
 <li> Named Entity Recognizer -> recognize a word/several words is name / orgnization / date and etc.
 
 
-<h1>World Net: 3-wordnet.py</li>
+## For workshop week5: World Net 3-wordnet.py
 
 From Princeton University. 
 https://wordnet.princeton.edu/wordnet/
