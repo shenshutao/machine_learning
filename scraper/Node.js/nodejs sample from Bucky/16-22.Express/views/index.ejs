@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% include templates/header.ejs %>
+
+    <h1><%= title %></h1>
+
+    <h3>For 20</h3>
+    <p>Name is <%= name %></p>
+
+    <ul>
+      <% for(var i=0; i<5; i++) {%>
+        <li>Tuna</li>
+      <%}%>
+    </ul>
+
+    <p> <%=points%></p>
+
+    <h3>For 21</h3>
+    <%=videodata.categoryName%>
+    <ul>
+      <% videodata.categories.forEach(function(item) { %>
+          <li><%= item.categoryName%></li>
+      <%})%>
+    </ul>
+
+    <h3>For 22</h3>
+    <%=videoData2.categoryName%>
+    <ul>
+        <% videoData2.categories.forEach(function(item) { %>
+          <li><%= item.categoryName%></li>
+        <%})%>
+    </ul>
+  </body>
+</html>
